@@ -1,4 +1,5 @@
 import Header from '@/components/header';
+import Founders from '@/components/homepage/founders';
 import Section1 from '@/components/homepage/section1';
 import React from 'react'
 
@@ -10,7 +11,7 @@ function Home() {
       </div>
       <Header/>
       <Section1/>
-      
+      <Founders/>
     </div>
   )
 }
