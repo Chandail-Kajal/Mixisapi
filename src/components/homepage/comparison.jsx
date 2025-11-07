@@ -24,7 +24,7 @@ const ComparisonSection = () => {
           <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl w-full h-full flex flex-col max-w-md hover:shadow-2xl transition-shadow duration-300">
             <div className="flex items-center mb-6">
               <img
-                src="/assets/Aisensy-DlxB96tQ.jpeg"
+                src="https://mittosapi.com/assets/Aisensy-DlxB96tQ.jpeg"
                 alt="aisensy Logo"
                 className="h-10 w-auto mr-4 object-contain"
               />
@@ -86,7 +86,7 @@ const ComparisonSection = () => {
           <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl w-full h-full flex flex-col max-w-md border-2 relative hover:shadow-2xl transition-shadow duration-300">
             <div className="flex items-center mb-6">
               <img
-                src="/assets/mittoslogo-C5UnFXGx.png"
+                src="https://mittosapi.com/assets/mittoslogo-C5UnFXGx.png"
                 alt="MittosAPI Logo"
                 className="h-10 w-auto mr-4 object-contain"
               />
