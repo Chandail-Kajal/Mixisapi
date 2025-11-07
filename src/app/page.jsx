@@ -3,6 +3,7 @@ import Founders from "@/components/homepage/founders";
 import HowItWorks from "@/components/homepage/how-it-works";
 import Revenue from "@/components/homepage/revenue";
 import Section1 from "@/components/homepage/section1";
+import WhatsAppBulkMessages from "@/components/homepage/what'sApp-bulk-messages";
 import React from "react";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <Founders />
       <HowItWorks />
       <Revenue />
+      <WhatsAppBulkMessages/>
     </div>
   );
 }

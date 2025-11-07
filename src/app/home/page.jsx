@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import AppChatBot from "@/components/homepage/Appchatbot";
 import Founders from "@/components/homepage/founders";
 import HowItWorks from "@/components/homepage/how-it-works";
 import Revenue from "@/components/homepage/revenue";
@@ -17,6 +18,8 @@ function Home() {
       <Founders />
       <HowItWorks />
       <Revenue />
+      <WhatsAppBulkMessages/>
+      <AppChatBot/>
     </div>
   );
 }
