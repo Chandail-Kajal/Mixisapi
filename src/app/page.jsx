@@ -21,46 +21,48 @@ import React from "react";
 function Home() {
   return (
     <div className="w-full">
-      <div className="bg-gradient-to-r from-green-500 to-green-600 text-white py-2 px-4 text-center font-bold text-sm sm:text-base">
-        WhatsApp Official API – Broadcast Messages, Automate, Engage & Close
-        Deals Faster!
-      </div>
-      <Header />
-      <Section1 />
-      <Founders />
-      <HowItWorks />
-      <Revenue />
-      <BulkMessaging />
-      <NoCode />
-      <WhatsAppForms />
-      <Campaign />
-      <WhatsappAds />
-      <OneDashboard />
-      <LeadCaptureFeatures />
-      <div>
-        <div className="text-center mb-16">
-          <h2 className="text-xl md:text-4xl font-bold text-gray-900 flex flex-col md:flex-row items-center justify-center">
-            <div className="text-green-600 mr-0 md:mr-3 mb-3 md:mb-0 text-3xl"></div>
-            💡 Imagine The Possibilities of Automating Anything!
-          </h2>
-          <div
-            className="h-1 w-3/4 md:w-1/2 lg:w-2/5 bg-gradient-to-r from-green-600 to-green-600 mx-auto mt-3 rounded-full"
-            // style="transform: none;"
-          ></div>
-          <p className="mt-6 text-base md:text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            MittosAPI supports more than 2,000+ applications for seamless
-            real-time data transfer. For example: When new sales happen on
-            WooCommerce, Add customer details to&nbsp;Google&nbsp;Sheets
-          </p>
+       <div className="min-h-screen [background-image:linear-gradient(rgba(59,130,246,0.1)_1px,transparent_0),linear-gradient(90deg,rgba(59,130,246,0.1)_1px,transparent_0)] [background-size:35px_35px]">
+        <div className="bg-gradient-to-r from-green-500 to-green-600 text-white py-2 px-4 text-center font-bold text-sm sm:text-base">
+          WhatsApp Official API – Broadcast Messages, Automate, Engage & Close
+          Deals Faster!
         </div>
-      </div>
+        <Header />
+        <Section1 />
+        <Founders />
+        <HowItWorks />
+        <Revenue />
+        <BulkMessaging />
+        <NoCode />
+        <WhatsAppForms />
+        <Campaign />
+        <WhatsappAds />
+        <OneDashboard />
+        <LeadCaptureFeatures />
+        <div>
+          <div className="text-center mb-16">
+            <h2 className="text-xl md:text-4xl font-bold text-gray-900 flex flex-col md:flex-row items-center justify-center">
+              <div className="text-green-600 mr-0 md:mr-3 mb-3 md:mb-0 text-3xl"></div>
+              💡 Imagine The Possibilities of Automating Anything!
+            </h2>
+            <div
+              className="h-1 w-3/4 md:w-1/2 lg:w-2/5 bg-gradient-to-r from-green-600 to-green-600 mx-auto mt-3 rounded-full"
+              // style="transform: none;"
+            ></div>
+            <p className="mt-6 text-base md:text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              MittosAPI supports more than 2,000+ applications for seamless
+              real-time data transfer. For example: When new sales happen on
+              WooCommerce, Add customer details to&nbsp;Google&nbsp;Sheets
+            </p>
+          </div>
+        </div>
 
-      <IntegrationsShowcase />
-      <ComparisonSection />
-      <WhyTrustMittos />
-      <ComplianceSection />
-      <FAQSection />
-      <Footer />
+        <IntegrationsShowcase />
+        <ComparisonSection />
+        <WhyTrustMittos />
+        <ComplianceSection />
+        <FAQSection />
+        <Footer />
+      </div>
     </div>
   );
 }
