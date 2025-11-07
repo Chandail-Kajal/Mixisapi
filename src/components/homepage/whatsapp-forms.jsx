@@ -177,7 +177,13 @@ function WhatsAppForms() {
       </div>
       <div className="w-full max-w-5xl mx-auto px-4 my-6">
       <div className="w-full h-full w-full aspect-video rounded-lg shadow-lg object-cover border-4 border-green-500">
-          <video src="https://mittosapi.com/assets/MittosAPI%20(2)-CpjgQq6d.mp4" className="w-full h-full object-cover" autoPlay loop></video>
+          <video src="https://mittosapi.com/assets/MittosAPI%20(2)-CpjgQq6d.mp4" 
+            className="w-full h-full object-cover" 
+            autoPlay 
+            loop
+            muted
+            playsInline>
+            </video>
       </div>
       </div>
     </div>

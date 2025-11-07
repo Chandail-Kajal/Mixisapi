@@ -142,8 +142,10 @@ function NoCode() {
           <video
             src="https://mittosapi.com/assets/MittosAPI%20(1)-BBZQE_Tv.mp4"
             className="w-full h-full object-cover"
-            autoplay=""
-            loop=""
+            autoPlay
+            loop
+            muted
+            playsInline
           ></video>
         </div>
       </div>
