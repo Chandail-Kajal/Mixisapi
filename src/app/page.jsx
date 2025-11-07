@@ -13,13 +13,9 @@ import NoCode from "@/components/homepage/no-code";
 import OneDashboard from "@/components/homepage/one-dashboard";
 import Revenue from "@/components/homepage/revenue";
 import Section1 from "@/components/homepage/section1";
-<<<<<<< HEAD
-import WhatsAppBulkMessages from "@/components/homepage/what'sApp-bulk-messages";
-=======
 import WhatsappAds from "@/components/homepage/whatsapp-ads";
 import WhatsAppForms from "@/components/homepage/whatsapp-forms";
 import WhyTrustMittos from "@/components/homepage/why-trust-us";
->>>>>>> 296eb462c6b41c1013f6f211c4cc19f0d02a55dc
 import React from "react";
 
 function Home() {
@@ -34,9 +30,6 @@ function Home() {
       <Founders />
       <HowItWorks />
       <Revenue />
-<<<<<<< HEAD
-      <WhatsAppBulkMessages/>
-=======
       <BulkMessaging />
       <NoCode />
       <WhatsAppForms />
@@ -68,7 +61,6 @@ function Home() {
       <ComplianceSection />
       <FAQSection />
       <Footer />
->>>>>>> 296eb462c6b41c1013f6f211c4cc19f0d02a55dc
     </div>
   );
 }

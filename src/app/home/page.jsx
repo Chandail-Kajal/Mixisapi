@@ -1,14 +1,10 @@
 import Header from "@/components/header";
-<<<<<<< HEAD
-import AppChatBot from "@/components/homepage/Appchatbot";
-=======
 import BulkMessaging from "@/components/homepage/bulk-messaging";
 import Campaign from "@/components/homepage/campaign";
 import ComparisonSection from "@/components/homepage/comparison";
 import ComplianceSection from "@/components/homepage/compliance";
 import FAQSection from "@/components/homepage/faq";
 import Footer from "@/components/homepage/footer";
->>>>>>> 296eb462c6b41c1013f6f211c4cc19f0d02a55dc
 import Founders from "@/components/homepage/founders";
 import HowItWorks from "@/components/homepage/how-it-works";
 import IntegrationsShowcase from "@/components/homepage/integration-showcase";
@@ -34,10 +30,6 @@ function Home() {
       <Founders />
       <HowItWorks />
       <Revenue />
-<<<<<<< HEAD
-      <WhatsAppBulkMessages/>
-      <AppChatBot/>
-=======
       <BulkMessaging />
       <NoCode />
       <WhatsAppForms />
@@ -53,7 +45,7 @@ function Home() {
           </h2>
           <div
             className="h-1 w-3/4 md:w-1/2 lg:w-2/5 bg-gradient-to-r from-green-600 to-green-600 mx-auto mt-3 rounded-full"
-          // style="transform: none;"
+            // style="transform: none;"
           ></div>
           <p className="mt-6 text-base md:text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
             MittosAPI supports more than 2,000+ applications for seamless
@@ -69,7 +61,6 @@ function Home() {
       <ComplianceSection />
       <FAQSection />
       <Footer />
->>>>>>> 296eb462c6b41c1013f6f211c4cc19f0d02a55dc
     </div>
   );
 }
