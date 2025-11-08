@@ -26,7 +26,7 @@ function Section1() {
           </span>
         </div>
       </div>
-      <div className="min-h-screen [background-image:linear-gradient(rgba(59,130,246,0.1)_1px,transparent_0),linear-gradient(90deg,rgba(59,130,246,0.1)_1px,transparent_0)] [background-size:35px_35px]">
+      <div >
         <div className="relative overflow-hidden">
           <div className="absolute inset-0 -z-10 h-full [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#e0f2fe_100%)]">
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#f0f9ff_1px,transparent_1px),linear-gradient(to_bottom,#f0f9ff_1px,transparent_1px)] bg-[size:24px_24px] opacity-20"></div>

@@ -1,3 +1,4 @@
+"use client"
 import Header from "@/components/header";
 import BulkMessaging from "@/components/homepage/bulk-messaging";
 import Campaign from "@/components/homepage/campaign";
@@ -17,15 +18,20 @@ import WhatsappAds from "@/components/homepage/whatsapp-ads";
 import WhatsAppForms from "@/components/homepage/whatsapp-forms";
 import WhyTrustMittos from "@/components/homepage/why-trust-us";
 import React from "react";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
     <div className="w-full">
-       <div className="min-h-screen [background-image:linear-gradient(rgba(59,130,246,0.1)_1px,transparent_0),linear-gradient(90deg,rgba(59,130,246,0.1)_1px,transparent_0)] [background-size:35px_35px]">
-        <div className="bg-gradient-to-r from-green-500 to-green-600 text-white py-2 px-4 text-center font-bold text-sm sm:text-base">
+      <div className="min-h-screen [background-image:linear-gradient(rgba(59,130,246,0.1)_1px,transparent_0),linear-gradient(90deg,rgba(59,130,246,0.1)_1px,transparent_0)] [background-size:35px_35px]">
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="bg-gradient-to-r from-green-500 to-green-600 text-white py-2 px-4 text-center font-bold text-sm sm:text-base"
+        >
           WhatsApp Official API – Broadcast Messages, Automate, Engage & Close
           Deals Faster!
-        </div>
+        </motion.div>
         <Header />
         <Section1 />
         <Founders />
