@@ -44,8 +44,8 @@ function WhatsAppForms() {
           className="text-center space-y-4 text-lg text-gray-800 w-full max-w-screen-xl mb-8"
         >
           <li>
-            WhatsApp API forms let you capture leads instantly and send automated
-            replies to boost conversion rates.
+            WhatsApp API forms let you capture leads instantly and send
+            automated replies to boost conversion rates.
           </li>
         </motion.ul>
 
@@ -56,7 +56,11 @@ function WhatsAppForms() {
               className="flex justify-center items-center gap-2 px-6 py-4 border border-green-300 rounded-lg text-green-800 font-medium shadow-md bg-white
                        transform transition-all duration-300 hover:text-white hover:scale-[1.03]"
               initial={{ opacity: 0, y: 40 }}
-              transition={{ delay: index * 0.1, duration: 0.5, ease: "easeOut" }}
+              transition={{
+                delay: index * 0.1,
+                duration: 0.5,
+                ease: "easeOut",
+              }}
               viewport={{ once: true }}
               whileHover={{
                 backgroundColor: "#22C55E",
@@ -81,9 +85,7 @@ function WhatsAppForms() {
             </motion.button>
           ))}
         </div>
-
       </motion.div>
-
       <div className="w-full max-w-5xl mx-auto px-4 my-6">
         <div className="w-full h-full aspect-video rounded-lg shadow-lg object-cover border-4 border-green-500">
           <video
