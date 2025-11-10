@@ -98,13 +98,32 @@ const Chart = () => {
  
       <XAxis dataKey="name" />
  
-      <Tooltip />
+      <Tooltip 
+        contentStyle={{
+              backgroundColor: "white",
+              border: "1px solid #D1D5DB",
+              borderRadius: "8px",
+            }}
+      />
+    
  
-      <Area type="monotone" dataKey="value" stroke="#22C55E" strokeWidth={3} fill="#22C55E">
- 
-        <Dot radius={5}  />
- 
-      </Area>
+      <Area
+            type="monotone"
+            dataKey="value"
+            stroke="#22C55E"
+            strokeWidth={3}
+            fill="url(#colorGreen)"
+            dot={{ r: 4, fill: "#22C55E" }}
+            isAnimationActive={true}
+            animationDuration={1500}
+            animationBegin={0}
+          />
+          <defs>
+            <linearGradient id="colorGreen" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="#22C55E" stopOpacity={0.5} />
+              <stop offset="80%" stopColor="#ffffff" stopOpacity={0.3} />
+            </linearGradient>
+          </defs>
  
     </AreaChart>
  
