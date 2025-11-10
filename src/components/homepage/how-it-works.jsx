@@ -105,7 +105,7 @@ const Column = ({ title, color, items, type }) => (
           </h3>
         </div>
       </div>
-      <div className="space-y-4 mt-2 text-lg">
+      <div className="space-y-4 mt-2 text-lg ">
         {items.map((text, i) => (
           <Card key={i} text={text} index={i} type={type} />
         ))}

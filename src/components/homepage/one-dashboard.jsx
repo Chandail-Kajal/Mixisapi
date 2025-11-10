@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Chart from "../chart";
 
 function OneDashboard() {
   const visible = (e) => ({
@@ -84,7 +85,7 @@ function OneDashboard() {
 
               {/* Placeholder for chart */}
               <div className="h-48 sm:h-56 flex items-center justify-center text-gray-400 text-sm border border-dashed rounded-lg">
-                Chart placeholder
+                <Chart/>
               </div>
             </motion.div>
 

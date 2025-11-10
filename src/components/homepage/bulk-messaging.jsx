@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { FaBell, FaBullhorn, FaEnvelopeOpenText, FaImages, FaReply, FaTag, FaTicketAlt, FaTools } from "react-icons/fa";
+import { RiCursorFill } from "react-icons/ri";
 
 const MotionBox = ({ children, delay = 0, className = "" }) => (
   <motion.div
@@ -40,15 +42,15 @@ function BulkMessaging() {
   ];
 
   const buttons = [
-    "Send Promotions",
-    "Offers",
-    "Coupon Codes",
-    "Carousels",
-    "Call to Action",
-    "Marketing Messages",
-    "Utility Messages",
-    "Order Notifications",
-    "Quick Reply",
+    {label:"Send Promotions",icon:<FaBullhorn/>},
+    {label:"Offers",icon:<FaTag/>},
+    {label:"Coupon Codes",icon:<FaTicketAlt/>},
+    {label:"Carousels",icon:<FaImages/>},
+    {label:"Call to Action",icon:<RiCursorFill/>},
+    {label:"Marketing Messages",icon:<FaEnvelopeOpenText/>},
+    {label:"Utility Messages",icon:<FaTools/>},
+    {label:"Order Notifications",icon:<FaBell/>},
+    {label:"Quick Reply",icon:<FaReply/>},
   ];
 
   return (
@@ -124,8 +126,8 @@ function BulkMessaging() {
               }}
               className="flex items-center justify-center gap-3 px-7 py-2 rounded-xl bg-gradient-to-r from-green-500 to-green-400 text-white font-medium shadow-md hover:shadow-lg transition-transform"
             >
-              <span className="text-lg">💬</span>
-              {btn}
+              <span className="text-lg">{btn.icon}</span>
+               <span className="text-base">{btn.label}</span>
             </motion.button>
           ))}
         </div>
