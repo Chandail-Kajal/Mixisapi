@@ -68,7 +68,7 @@ const LeadCaptureFeatures = () => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 16 16"
                   height="1em"
                   width="1em"
@@ -85,7 +85,7 @@ const LeadCaptureFeatures = () => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 512 512"
                   height="1em"
                   width="1em"
@@ -101,7 +101,7 @@ const LeadCaptureFeatures = () => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 512 512"
                   height="1em"
                   width="1em"
@@ -117,7 +117,7 @@ const LeadCaptureFeatures = () => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 512 512"
                   height="1em"
                   width="1em"
@@ -136,7 +136,7 @@ const LeadCaptureFeatures = () => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 640 512"
                   height="1em"
                   width="1em"
@@ -153,7 +153,7 @@ const LeadCaptureFeatures = () => {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  strokeWidth="0"
                   viewBox="0 0 448 512"
                   height="1em"
                   width="1em"
@@ -249,9 +249,9 @@ const LeadCaptureFeatures = () => {
                   },
                 }}
                 viewport={{ amount: 0.5, once: true }}
-                class="absolute top-0 left-[33%] flex justify-center mb-6"
+                className="absolute top-0 left-[33%] flex justify-center mb-6"
               >
-                <h2 class="text-base md:text-lg font-bold text-green-600 bg-green-100 rounded-full py-2 px-6 inline-block whitespace-nowrap ">
+                <h2 className="text-base md:text-lg font-bold text-green-600 bg-green-100 rounded-full py-2 px-6 inline-block whitespace-nowrap ">
                   Your lead sources
                 </h2>
               </motion.div>
@@ -438,9 +438,9 @@ const LeadCaptureFeatures = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 512 512"
-                      class="text-red-500 mr-2"
+                      className="text-red-500 mr-2"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -459,9 +459,9 @@ const LeadCaptureFeatures = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 384 512"
-                      class="text-red-500 text-2xl mr-3"
+                      className="text-red-500 text-2xl mr-3"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -479,9 +479,9 @@ const LeadCaptureFeatures = () => {
                     <svg
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 512 512"
-                      class="text-green-500 text-2xl mr-3"
+                      className="text-green-500 text-2xl mr-3"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"

@@ -142,8 +142,8 @@ function Section1() {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path d="M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z"></path>
+                     </svg>
                       No credit card required
-                    </svg>
                   </p>
                   <div className="inline-flex items-center gap-2 rounded-full border border-green-300 px-4 py-1 text-xs sm:text-base text-black font-semibold bg-green-50 backdrop-blur-sm shadow-sm hover:border-green-500 w-fit">
                     <svg

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaMoneyBillWave, FaUsers, FaVideo } from "react-icons/fa";
 
 const ComparisonSection = () => {
   return (
@@ -83,7 +84,7 @@ const ComparisonSection = () => {
           </div>
 
           {/* MittosAPI Card */}
-          <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl w-full h-full flex flex-col max-w-md border-2 relative hover:shadow-2xl transition-shadow duration-300">
+          <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl w-full h-full flex flex-col max-w-md hover:shadow-2xl transition-shadow duration-300 border border-gray-200">
             <div className="flex items-center mb-6">
               <img
                 src="https://mittosapi.com/assets/mittoslogo-C5UnFXGx.png"
@@ -161,9 +162,10 @@ const ComparisonSection = () => {
 
           {/* Stats */}
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
-            <StatCard icon="users" text="Trusted by 50,000+ Businesses" />
-            <StatCard icon="clock" text="7 - Days FREE TRIAL" />
-            <StatCard icon="video" text="200+ Video Tutorials" />
+            <StatCard icon={<FaUsers className="text-green-500"/>} text="Trusted by 50,000+ Businesses" />
+            <StatCard icon={<FaMoneyBillWave className="text-green-500"/>} text="7 - Days FREE TRIAL" />
+            <StatCard icon={<FaVideo className="text-purple-600"/>} text="200+ Video Tutorials" />
+            
           </div>
         </div>
       </div>
@@ -213,7 +215,7 @@ const StatCard = ({ icon, text }) => (
       height="1em"
       width="1em"
     >
-      <circle cx="8" cy="8" r="8" />
+      {icon}
     </svg>
     <span className="font-medium text-sm sm:text-base">{text}</span>
   </div>
