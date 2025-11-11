@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const steps = [
@@ -9,6 +9,15 @@ const steps = [
   { text: "24 hours later", delay: 0.4 },
   { text: "After 7 days", delay: 0.5 },
   { text: "Keep adding as many steps you need", delay: 0.6 },
+];
+
+const images = [
+  "/assets/villaAD2-DrtJxlzQ.png",
+  "/assets/villaAD3-DrNf04Aa.png",
+  "/assets/villaAD5-CN0dZXet.png",
+  "/assets/villaAD1-DIsW6IcP.png",
+  "/assets/villaAD4-hbiFRJly.png",
+  "/assets/villaAD6-C0Raeryy.png",
 ];
 
 const features = [
@@ -21,6 +30,16 @@ const features = [
 ];
 
 function Campaign() {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((p) => (p + 1) % 6);
+    }, 3000);
+
+    return () => interval.close();
+  }, []);
+
   return (
     <section className="flex flex-col md:flex-row justify-center items-center min-h-screen p-4 md:p-8 bg-gradient-to-br from-green-100 via-white to-green-200 rounded-2xl relative overflow-hidden">
       <motion.div
@@ -44,13 +63,16 @@ function Campaign() {
           {steps.map((step, index) => (
             <motion.li
               key={index}
-              className="w-fit cursor-pointer px-4 py-3 rounded-full flex items-center gap-3 shadow-md relative overflow-hidden transition-all duration-300 transform hover:scale-105 bg-white shadow-lg"
+              className={`w-fit cursor-pointer px-4 py-3 rounded-full flex items-center gap-3 shadow-md relative overflow-hidden transition-all duration-300 transform hover:scale-105 ${
+                index === activeIndex ? "bg-white" : "bg-[#d6f5db]"
+              } hover:bg-[#c8eecd]`}
               tabIndex="0"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
               transition={{ delay: step.delay, duration: 0.5 }}
+              onClick={() => setActiveIndex(index)}
             >
               {index === 0 && (
                 <span className="absolute left-0 top-1/2 -translate-y-1/2 -ml-3 w-3 h-3 rounded-full bg-green-500 animate-pulse shadow-md"></span>
@@ -76,7 +98,6 @@ function Campaign() {
         <div className="flex flex-col md:flex-row gap-8 items-center w-full md:w-auto">
           <motion.div
             className="relative mx-auto border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[500px] w-[260px] sm:h-[600px] sm:w-[300px] shadow-xl"
-            // style="opacity: 1; transform: none;"
             initial={{ opacity: 0, y: 40 }}
             transition={{ duration: 0.7 }}
             viewport={{ amount: 0.2, once: true }}
@@ -134,7 +155,7 @@ function Campaign() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fillRule="evenodd"
+                      fill-rule="evenodd"
                       d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"
                     ></path>
                   </svg>
@@ -159,7 +180,7 @@ function Campaign() {
               >
                 <div className="bg-white rounded-lg shadow-md p-3">
                   <img
-                    src="https://mittosapi.com/assets/villaAD6-C0Raeryy.png"
+                    src={"https://mittosapi.com/" + images[activeIndex]}
                     alt="Villa"
                     className="rounded-md mb-3"
                   />
@@ -245,11 +266,11 @@ function Campaign() {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          fillRule="evenodd"
+                          fill-rule="evenodd"
                           d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
                         ></path>
                         <path
-                          fillRule="evenodd"
+                          fill-rule="evenodd"
                           d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
                         ></path>
                       </svg>{" "}
