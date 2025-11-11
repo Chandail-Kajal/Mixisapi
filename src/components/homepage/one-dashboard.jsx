@@ -84,7 +84,7 @@ function OneDashboard() {
               </p>
 
               {/* Placeholder for chart */}
-              <div className="h-48 sm:h-56 flex items-center justify-center text-gray-400 text-sm border border-dashed rounded-lg">
+              <div className="h-48 sm:h-56 flex items-center justify-center text-gray-400 text-sm rounded-lg">
                 <Chart/>
               </div>
             </motion.div>
