@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { FaChevronCircleUp, FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 function Header() {
   const [openedMenu, setOpenedMenu] = useState(null);
@@ -52,20 +53,12 @@ function Header() {
                   ></path>
                 </svg>
                 <span>FEATURES</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-chevron-down w-4 h-4 transition "
-                >
-                  <path d="m6 9 6 6 6-6"></path>
-                </svg>
+                
+                 {openedMenu === "features" ? (
+          <FaChevronUp className="transition-transform duration-300" />
+        ) : (
+          <FaChevronDown className="transition-transform duration-300" />
+        )}
               </button>
               {openedMenu === "features" && (
                 <div className="absolute left-0 mt-3 w-[950px] bg-white shadow-2xl rounded-lg p-4 grid grid-cols-4 gap-3 border border-gray-200">
@@ -648,6 +641,7 @@ function Header() {
                   </div>
                 </div>
               )}
+              
             </div>
             <a
               className="flex items-center gap-2 text-gray-700 hover:text-green-500 font-medium text-sm transition-colors duration-200"
