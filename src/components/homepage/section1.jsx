@@ -106,13 +106,13 @@ function Section1() {
                     Powered by Official WhatsApp APIs 🔥
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-6">
-                    <Link href="/https://mittosapi.com/forms">
+                    <Link href="/forms">
                       <button className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-3.5 rounded-xl font-semibold text-lg shadow-md hover:shadow-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 flex items-center justify-center gap-2">
                         Try Mittos API for FREE
                         <span className="text-xl"></span>
                       </button>
                     </Link>
-                    <Link href="/https://mittosapi.com/offer">
+                    <Link href="/offer">
                       <button className="relative w-full sm:w-auto overflow-hidden rounded-xl border-2 border-green-500 bg-white px-8 py-3.5 text-lg font-semibold text-green-700 shadow-md transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 group flex flex-col items-center justify-center">
                         <span className="absolute inset-0 bg-gradient-to-r from-green-400 via-emerald-500 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></span>
                         <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out bg-gradient-to-r from-transparent via-white/60 to-transparent"></span>
