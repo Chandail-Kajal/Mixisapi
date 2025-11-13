@@ -207,7 +207,19 @@ const OffersPage = () => {
                                             </div>
                                         </div>
                                         <div className="flex items-start gap-3">
+                                            <div className="mt-0.5 p-1 bg-emerald-500/20 rounded-full text-emerald-400">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-square w-5 h-5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
 
+                                            </div>
+                                            <div>
+                                                <p className="font-medium text-white">Unlimited No-code Automation + Chatbot</p>
+                                                <p className="text-sm text-gray-400">Powerful automation without any coding required</p>
+                                            </div>
+                                        </div>
+                                        <div className="flex items-start gap-3">
+                                            <div className="mt-0.5 p-1 bg-emerald-500/20 rounded-full text-emerald-400">
+                                                <div className="mt-0.5 p-1 bg-emerald-500/20 rounded-full text-emerald-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-bar-chart2 w-5 h-5"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
