@@ -1,58 +1,69 @@
 import React from "react";
 
-const Payment = () => {
+const WhatsAppLink = () => {
   return (
-    <div >
+    <div className="flex flex-col min-h-screen w-full max-w-[100vw] overflow-x-hidden">
       <div className="flex-grow">
-        <div className="w-full bg-white py-10">
+        <div className="w-full bg-green-50 py-10">
           <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <div className="flex flex-wrap gap-6 mb-5">
                 <div className="flex items-center gap-2 rounded-full px-4 py-1 text-xs sm:text-base text-black font-semibold bg-green-200 backdrop-blur-sm shadow-sm hover:border-green-500">
-                  ⚡ WhatsApp Payment Gateway
+                  ⚡WhatsApp Link Generator
                 </div>
               </div>
 
-              <h2 className="text-4xl font-extrabold text-black-00">
-                WhatsApp Payment Automation Solution
+              <h2 className="text-4xl font-extrabold text-black">
+                WhatsApp Link Generator
               </h2>
 
-              <p className="text-xl text-gray-900 mt-6">
-                Convert prospect to paying customers without leaving WhatsApp
+              <h4 className="text-xl font-bold text-gray-700">
+                Why Use a WhatsApp Link Generator?
+              </h4>
+              <p className="text-sm text-gray-500 mb-4">
+                A WhatsApp link generator can help you solve problems like missed opportunities,
+                lost sales, and disengaged contacts by enabling customers and prospects to easily reach you.
               </p>
 
-              <ul className="mt-8 space-y-3 text-lg text-gray-700">
-                <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Boost trust with
-                  branded links tailored to your business.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Create payment links
-                  instantly for bookings, bots, or campaigns.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span>
-                  <p>
-                    Turn your WhatsApp catalog into a storefront with embedded{" "}
-                    <q>Pay now</q> buttons.
-                  </p>
-                </li>
-              </ul>
+              <h4 className="text-lg font-bold text-gray-700">
+                Connect with People Instantly
+              </h4>
+              <p className="text-sm text-gray-500 mb-4">
+                In just three easy steps, you can create a direct link enabling individuals who don't
+                have your contact details to initiate a dialogue on WhatsApp Business.
+              </p>
 
-              <div className="flex items-center gap-3 m-8">
+              <h4 className="text-xl font-bold text-gray-700">
+                Streamline Your Operational Workflows
+              </h4>
+              <p className="text-sm text-gray-500 mb-4">
+                Level up your communication game, improve engagement, and enhance customer experience
+                by allowing customers and potential clients to contact you instantly.
+              </p>
+
+              <h4 className="text-xl font-bold text-gray-700">
+                Attain Maximum Revenue Potential
+              </h4>
+              <p className="text-sm text-gray-500 mb-8">
+                Unlock revenue growth opportunities, elevate your sales, and amplify your profit margins
+                by tapping into the potential of personalised WhatsApp business links.
+              </p>
+
+              <div className="flex items-center gap-3 mb-3">
                 <a href="/forms" data-discover="true">
                   <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg shadow">
                     Start FREE Trial
                   </button>
                 </a>
-                <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2 rounded-lg shadow">
-                  Watch Demo
-                </button>
+                <a href="/pricing" data-discover="true">
+                  <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2 rounded-lg shadow flex items-center gap-1">
+                    ▶ Check Pricing
+                  </button>
+                </a>
               </div>
 
               <p className="text-sm text-gray-500 flex items-center gap-1">
-                <span className="text-orange-600">▢</span> No credit card
-                required
+                <span className="text-orange-600">▢</span> No credit card required
               </p>
 
               <div className="mt-3">
@@ -66,33 +77,56 @@ const Payment = () => {
 
             <div className="flex justify-center">
               <img
-                src="https://mittosapi.com/assets/Payment-CzM8lsgN.png"
-                alt="WhatsApp AI Demo"
-                className="max-w-md w-full"
+                src="https://mittosapi.com/assets/LinkWP-D0Rs01Zk.png"
+                alt="WhatsApp Demo"
+                className="max-w-md w-full h-[550px] rounded-xl"
               />
             </div>
           </div>
-          <div className="w-full max-w-4xl mx-auto my-12 px-4 ">
-            <div className="w-full max-w-4xl mx-auto px-4 ">
-              <h2 className="text-xl md:text-2xl font-bold mb-3 text-center md:text-left">WhatsApp Payment Tutorial</h2>
-              <div className="relative w-full aspect-video">
-                <div className="w-full h-full bg-black rounded-lg overflow-hidden cursor-pointer border-green-500 border-4" aria-label="Play video: WhatsApp Payment Tutorial">
-                  <img src="https://img.youtube.com/vi/jgFsOlgkPX0/hqdefault.jpg" alt="WhatsApp Payment Tutorial" className="w-full h-full object-cover" loading="lazy" />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 hover:bg-opacity-10 transition-all duration-300">
-                    <div className="bg-green-500 rounded-full p-3 md:p-4 hover:scale-110 transition-transform">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" className="w-8 h-8 md:w-10 md:h-10">
-                        <path d="M8 5v14l11-7z"></path></svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
+          {/* Steps Section */}
+          <section className="bg-[#f5fbf7] mt-16 py-12 px-6 md:px-20 text-center rounded-xl">
+            <h2 className="text-2xl md:text-4xl font-extrabold text-gray-900">
+              How to Create WhatsApp Links for Free in 3 Simple Steps
+            </h2>
+            <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
+              Creating your personalized WhatsApp link using Mittos API is as simple as one-two-three, and here's how you do it:
+            </p>
+
+            <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 relative">
+              {[{
+                num: 1,
+                title: "Provide Your Contact Details",
+                text: "Enter your WhatsApp Business number into the Mittos API WhatsApp link generator"
+              }, {
+                num: 2,
+                title: "Add a Personal Message",
+                text: "Write a unique message with your WhatsApp link to make it more personalised"
+              }, {
+                num: 3,
+                title: "Create Custom WhatsApp Chat Link",
+                text: 'Hit the "Generate Link" button to claim your unique WhatsApp chat link for FREE'
+              }].map((step) => (
+                <div key={step.num} className="flex flex-col items-center text-center relative">
+                  <div className="w-12 h-12 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold text-lg shadow-sm z-10">
+                    {step.num}
+                  </div>
+                  {step.num !== 3 && (
+                    <>
+                      <div className="hidden md:block absolute top-6 left-1/2 w-full h-[2px] bg-gray-300 -z-0"></div>
+                      <div className="md:hidden absolute top-12 left-1/2 w-[2px] h-12 bg-gray-300 -z-0"></div>
+                    </>
+                  )}
+                  <h3 className="mt-6 text-lg font-semibold text-gray-900">{step.title}</h3>
+                  <p className="mt-2 text-gray-600 max-w-xs">{step.text}</p>
+                </div>
+              ))}
+            </div>
+          </section>
         </div>
       </div>
     </div>
   );
 };
 
-export default Payment;
+export default WhatsAppLink;
