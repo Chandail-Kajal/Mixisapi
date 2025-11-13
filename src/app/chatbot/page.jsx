@@ -53,7 +53,7 @@ const WhatsAppAIChatbotPage = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src="/assets/Ai%20Chatbot-BdBPB7b1.png"
+                src="https://mittosapi.com/assets/Ai%20Chatbot-BdBPB7b1.png"
                 alt="WhatsApp AI Demo"
                 className="max-w-md w-full"
               />
