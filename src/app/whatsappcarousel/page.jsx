@@ -3,7 +3,7 @@ import React from "react";
 
 const  WhatsAppCarousel= () => {
   return (
-    <div className="flex flex-col min-h-screen w-full max-w-[100vw] overflow-x-hidden">
+    <div>
       {/* Hero Section */}
       <div className="flex-grow">
         <div className="bg-white py-5 px-6 lg:px-10">
