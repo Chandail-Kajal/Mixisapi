@@ -2,7 +2,7 @@ import React from "react";
 
 const Keyword = () => {
   return (
-    <div className="flex flex-col min-h-screen w-full max-w-[100vw] overflow-x-hidden">
+    <div >
       <div className="flex-grow">
         {/* Hero Section */}
         <div className="w-full bg-green-50 py-2">

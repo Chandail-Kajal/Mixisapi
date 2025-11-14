@@ -1,58 +1,69 @@
-import Footer from "@/components/homepage/footer";
 import React from "react";
 
-const  WhatsAppCarousel= () => {
+const WhatsAppLink = () => {
   return (
-    <div>
-      {/* Hero Section */}
+    <div className="flex flex-col min-h-screen w-full max-w-[100vw] overflow-x-hidden">
       <div className="flex-grow">
-        <div className="bg-white py-5 px-6 lg:px-10">
-          <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left Content */}
+        <div className="w-full bg-green-50 py-10">
+          <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
               <div className="flex flex-wrap gap-6 mb-5">
                 <div className="flex items-center gap-2 rounded-full px-4 py-1 text-xs sm:text-base text-black font-semibold bg-green-200 backdrop-blur-sm shadow-sm hover:border-green-500">
-                  ⚡ Engage with products and service offers
+                  ⚡WhatsApp Link Generator
                 </div>
               </div>
 
-              <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
-                WhatsApp Carousel{" "}
-                <span className="block text-green-700">Ads &amp; Messages</span>
+              <h2 className="text-4xl font-extrabold text-black">
+                WhatsApp Link Generator
               </h2>
 
-              <ul className="space-y-3 text-lg text-gray-700">
-                <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Pay for a single
-                  conversation while showcasing multiple products.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Seamless Product
-                  Showcase: Display up to 10 products or services in one
-                  scrollable message.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Present all
-                  offerings at once, reducing the need for back-to-back
-                  messages.
-                </li>
-              </ul>
+              <h4 className="text-xl font-bold text-gray-700">
+                Why Use a WhatsApp Link Generator?
+              </h4>
+              <p className="text-sm text-gray-500 mb-4">
+                A WhatsApp link generator can help you solve problems like missed opportunities,
+                lost sales, and disengaged contacts by enabling customers and prospects to easily reach you.
+              </p>
 
-              <div className="mt-8 flex flex-wrap gap-4">
+              <h4 className="text-lg font-bold text-gray-700">
+                Connect with People Instantly
+              </h4>
+              <p className="text-sm text-gray-500 mb-4">
+                In just three easy steps, you can create a direct link enabling individuals who don't
+                have your contact details to initiate a dialogue on WhatsApp Business.
+              </p>
+
+              <h4 className="text-xl font-bold text-gray-700">
+                Streamline Your Operational Workflows
+              </h4>
+              <p className="text-sm text-gray-500 mb-4">
+                Level up your communication game, improve engagement, and enhance customer experience
+                by allowing customers and potential clients to contact you instantly.
+              </p>
+
+              <h4 className="text-xl font-bold text-gray-700">
+                Attain Maximum Revenue Potential
+              </h4>
+              <p className="text-sm text-gray-500 mb-8">
+                Unlock revenue growth opportunities, elevate your sales, and amplify your profit margins
+                by tapping into the potential of personalised WhatsApp business links.
+              </p>
+
+              <div className="flex items-center gap-3 mb-3">
                 <a href="/forms" data-discover="true">
-                  <button className="bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md">
+                  <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg shadow">
                     Start FREE Trial
                   </button>
                 </a>
                 <a href="/pricing" data-discover="true">
-                  <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md">
+                  <button className="bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2 rounded-lg shadow flex items-center gap-1">
                     ▶ Check Pricing
                   </button>
                 </a>
               </div>
 
-              <p className="mt-4 text-sm text-gray-500 flex items-center gap-2">
-                📦 No credit card required
+              <p className="text-sm text-gray-500 flex items-center gap-1">
+                <span className="text-orange-600">▢</span> No credit card required
               </p>
 
               <div className="mt-3">
@@ -64,19 +75,58 @@ const  WhatsAppCarousel= () => {
               </div>
             </div>
 
-            {/* Right Image */}
             <div className="flex justify-center">
               <img
-                src="	https://mittosapi.com/assets/WhatsAppCarasoule-DJoMcvgM.png"
-                alt="WhatsApp Carousel Example"
-                className="rounded-xl w-[380px] md:w-[420px] object-cover"
+                src="https://mittosapi.com/assets/LinkWP-D0Rs01Zk.png"
+                alt="WhatsApp Demo"
+                className="max-w-md w-full h-[550px] rounded-xl"
               />
             </div>
           </div>
+
+          {/* Steps Section */}
+          <section className="bg-[#f5fbf7] mt-16 py-12 px-6 md:px-20 text-center rounded-xl">
+            <h2 className="text-2xl md:text-4xl font-extrabold text-gray-900">
+              How to Create WhatsApp Links for Free in 3 Simple Steps
+            </h2>
+            <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
+              Creating your personalized WhatsApp link using Mittos API is as simple as one-two-three, and here's how you do it:
+            </p>
+
+            <div className="mt-12 flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 relative">
+              {[{
+                num: 1,
+                title: "Provide Your Contact Details",
+                text: "Enter your WhatsApp Business number into the Mittos API WhatsApp link generator"
+              }, {
+                num: 2,
+                title: "Add a Personal Message",
+                text: "Write a unique message with your WhatsApp link to make it more personalised"
+              }, {
+                num: 3,
+                title: "Create Custom WhatsApp Chat Link",
+                text: 'Hit the "Generate Link" button to claim your unique WhatsApp chat link for FREE'
+              }].map((step) => (
+                <div key={step.num} className="flex flex-col items-center text-center relative">
+                  <div className="w-12 h-12 flex items-center justify-center rounded-full bg-green-200 text-green-700 font-bold text-lg shadow-sm z-10">
+                    {step.num}
+                  </div>
+                  {step.num !== 3 && (
+                    <>
+                      <div className="hidden md:block absolute top-6 left-1/2 w-full h-[2px] bg-gray-300 -z-0"></div>
+                      <div className="md:hidden absolute top-12 left-1/2 w-[2px] h-12 bg-gray-300 -z-0"></div>
+                    </>
+                  )}
+                  <h3 className="mt-6 text-lg font-semibold text-gray-900">{step.title}</h3>
+                  <p className="mt-2 text-gray-600 max-w-xs">{step.text}</p>
+                </div>
+              ))}
+            </div>
+          </section>
         </div>
       </div>
-      </div>
+    </div>
   );
 };
 
-export default WhatsAppCarousel;
+export default WhatsAppLink;

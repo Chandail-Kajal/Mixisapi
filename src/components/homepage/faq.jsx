@@ -108,12 +108,12 @@ export default function FAQSection() {
               </button>
 
               <div
-                className={`px-5 overflow-hidden transition-all duration-500 ease-in-out bg-white ${
-                  openIndex === index ? "max-h-96 py-4" : "max-h-0"
-                }`}
-              >
-                <p className="text-gray-600 leading-relaxed">{item.answer}</p>
-              </div>
+  className={`px-5 overflow-hidden transition-all duration-500 ease-in-out bg-white ${
+    openIndex === index ? "max-h-[500px] py-4" : "max-h-0"
+  }`}
+>
+  <p className="text-gray-600 leading-relaxed">{item.answer}</p>
+</div>
             </div>
           ))}
         </div>
