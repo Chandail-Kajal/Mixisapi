@@ -12,8 +12,7 @@ const Payment = () => {
                   ⚡ WhatsApp Payment Gateway
                 </div>
               </div>
-
-              <h2 className="text-4xl font-extrabold text-black-00">
+            <h2 className="text-4xl font-extrabold text-black-00">
                 WhatsApp Payment Automation Solution
               </h2>
 
@@ -38,8 +37,7 @@ const Payment = () => {
                   </p>
                 </li>
               </ul>
-
-              <div className="flex items-center gap-3 m-8">
+            <div className="flex items-center gap-3 m-8">
                 <a href="/forms" data-discover="true">
                   <button className="bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg shadow">
                     Start FREE Trial
@@ -63,7 +61,6 @@ const Payment = () => {
                 />
               </div>
             </div>
-
             <div className="flex justify-center">
               <img
                 src="https://mittosapi.com/assets/Payment-CzM8lsgN.png"
@@ -72,9 +69,7 @@ const Payment = () => {
               />
             </div>
           </div>
-
-          {/* You can continue the rest (tutorials, accordion, footer, etc.) similarly */}
-        </div>
+          </div>
       </div>
     </div>
   );
