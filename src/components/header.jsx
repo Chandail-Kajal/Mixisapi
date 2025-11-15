@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaChevronCircleUp, FaChevronDown, FaChevronUp } from "react-icons/fa";
 
-function Header() {
+function Header({ mobileMenu, setMobileMenu }) {
   const [openedMenu, setOpenedMenu] = useState(null);
 
   const handleOpenMenu = (menu) => {
@@ -53,12 +53,12 @@ function Header() {
                   ></path>
                 </svg>
                 <span>FEATURES</span>
-                
-                 {openedMenu === "features" ? (
-          <FaChevronUp className="transition-transform duration-300" />
-        ) : (
-          <FaChevronDown className="transition-transform duration-300" />
-        )}
+
+                {openedMenu === "features" ? (
+                  <FaChevronUp className="transition-transform duration-300" />
+                ) : (
+                  <FaChevronDown className="transition-transform duration-300" />
+                )}
               </button>
               {openedMenu === "features" && (
                 <div className="absolute left-0 mt-3 w-[950px] bg-white shadow-2xl rounded-lg p-4 grid grid-cols-4 gap-3 border border-gray-200">
@@ -641,7 +641,6 @@ function Header() {
                   </div>
                 </div>
               )}
-              
             </div>
             <a
               className="flex items-center gap-2 text-gray-700 hover:text-green-500 font-medium text-sm transition-colors duration-200"
@@ -827,23 +826,44 @@ function Header() {
               </button>
             </a>
           </div>
-          <button className="lg:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="lucide lucide-menu "
-            >
-              <line x1="4" x2="20" y1="12" y2="12"></line>
-              <line x1="4" x2="20" y1="6" y2="6"></line>
-              <line x1="4" x2="20" y1="18" y2="18"></line>
-            </svg>
+          <button
+            className="lg:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+            onClick={setMobileMenu}
+          >
+            {mobileMenu ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                class="lucide lucide-x text-gray-700"
+              >
+                <path d="M18 6 6 18"></path>
+                <path d="m6 6 12 12"></path>
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="lucide lucide-menu "
+              >
+                <line x1="4" x2="20" y1="12" y2="12"></line>
+                <line x1="4" x2="20" y1="6" y2="6"></line>
+                <line x1="4" x2="20" y1="18" y2="18"></line>
+              </svg>
+            )}
           </button>
         </div>
       </div>
