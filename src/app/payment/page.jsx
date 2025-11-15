@@ -69,9 +69,6 @@ const Payment = () => {
               />
             </div>
           </div>
-<<<<<<< HEAD
-          </div>
-=======
           <div className="w-full max-w-4xl mx-auto my-12 px-4 ">
             <div className="w-full max-w-4xl mx-auto px-4 ">
               <h2 className="text-xl md:text-2xl font-bold mb-3 text-center md:text-left">WhatsApp Payment Tutorial</h2>
@@ -88,9 +85,7 @@ const Payment = () => {
               </div>
             </div>
           </div>
-
         </div>
->>>>>>> e3915d3bbbafb9c4381aa6cb98718b47e4f47e09
       </div>
     </div>
   );
