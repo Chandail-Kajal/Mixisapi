@@ -6,6 +6,7 @@ import FAQSection from "./homepage/faq";
 import Footer from "./homepage/footer";
 import SidebarMenu from "./sidebarMenu";
 import { useRouter } from "next/navigation";
+import ScrollToTopButton from "./scroll-to-top";
 
 function CommonLayout({ children }) {
   const [menu, setMenu] = useState(false);
@@ -54,6 +55,21 @@ function CommonLayout({ children }) {
         {children}
         <FAQSection />
         <Footer />
+      </div>
+
+      <div class="fixed bottom-7 right-7 flex flex-col items-center gap-1 z-50">
+        <button
+          className="bg-green-500 p-2 rounded-full  hover:scale-110 transition-transform duration-300 focus:outline-none"
+          ariaLabel="Chat on WhatsApp"
+          tabIndex="0"
+        >
+          <img
+            src="https://mittosapi.com/assets/wpsvg-Dgeggtsl.png"
+            alt="WhatsApp"
+            className="w-10 h-10"
+          />
+        </button>
+        <ScrollToTopButton />
       </div>
     </div>
   );
