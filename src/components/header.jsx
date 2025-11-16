@@ -1,26 +1,43 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
-import { FaChevronCircleUp, FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
 
 function Header({ mobileMenu, setMobileMenu }) {
   const [openedMenu, setOpenedMenu] = useState(null);
 
+  const featuresRef = useRef(null);
+  const mobileAppRef = useRef(null);
+
   const handleOpenMenu = (menu) => {
-    setOpenedMenu((prevMenu) => {
-      if (prevMenu === menu) {
-        return null;
-      }
-      return menu;
-    });
+    console.log(menu);
+    setOpenedMenu((prevMenu) => (prevMenu === menu ? null : menu));
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        featuresRef.current &&
+        !featuresRef.current.contains(event.target) &&
+        mobileAppRef.current &&
+        !mobileAppRef.current.contains(event.target)
+      ) {
+        setOpenedMenu(null);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <motion.header
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.2 }}
+      transition={{ delay: 0 }}
       className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,7 +50,7 @@ function Header({ mobileMenu, setMobileMenu }) {
             />
           </Link>
           <nav className="hidden lg:flex items-center space-x-6">
-            <div className="relative">
+            <div className="relative" ref={featuresRef}>
               <button
                 onClick={() => handleOpenMenu("features")}
                 className="flex items-center gap-2 text-gray-700 hover:text-green-500 font-medium text-sm"
@@ -53,12 +70,10 @@ function Header({ mobileMenu, setMobileMenu }) {
                   ></path>
                 </svg>
                 <span>FEATURES</span>
-
-                {openedMenu === "features" ? (
-                  <FaChevronUp className="transition-transform duration-300" />
-                ) : (
-                  <FaChevronDown className="transition-transform duration-300" />
-                )}
+                <FaChevronDown
+                  className={`transition-all duration-300 ${openedMenu === "features" ? "-rotate-180" : ""
+                    }`}
+                />
               </button>
               {openedMenu === "features" && (
                 <div className="absolute left-0 mt-3 w-[950px] bg-white shadow-2xl rounded-lg p-4 grid grid-cols-4 gap-3 border border-gray-200">
@@ -724,7 +739,7 @@ function Header({ mobileMenu, setMobileMenu }) {
               </svg>
               <span>BECOME RESELLER</span>
             </a>
-            <div className="relative">
+            <div className="relative" ref={mobileAppRef}>
               <button
                 onClick={() => handleOpenMenu("mobile-app")}
                 className="flex items-center gap-2 text-gray-700 hover:text-green-500 font-medium text-sm"
@@ -741,20 +756,10 @@ function Header({ mobileMenu, setMobileMenu }) {
                   <path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path>
                 </svg>
                 <span>MOBILE APP</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-chevron-down w-4 h-4 transition "
-                >
-                  <path d="m6 9 6 6 6-6"></path>
-                </svg>
+                <FaChevronDown
+                  className={`transition-all duration-300 ${openedMenu === "mobile-app" ? "-rotate-180" : ""
+                    }`}
+                />
               </button>
               {openedMenu === "mobile-app" && (
                 <div className="absolute left-0 mt-3 w-64 bg-white shadow-2xl rounded-lg p-2 border border-gray-200">

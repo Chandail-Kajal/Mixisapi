@@ -33,7 +33,7 @@ function CommonLayout({ children }) {
   return (
     <div className="relative overflow-hidden">
       <div
-        className={`absolute top-0 left-0 right-0 h-screen bg-white z-99 ${
+        className={`md:hidden absolute top-0 left-0 right-0 h-screen bg-white z-99 ${
           menu ? "opacity-100 translate-x-0" : "opacity-0 translate-x-96"
         } transition-all duration-700 overflow-hidden flex flex-col`}
       >

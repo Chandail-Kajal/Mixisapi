@@ -37,7 +37,7 @@ function Campaign() {
       setActiveIndex((p) => (p + 1) % 6);
     }, 3000);
 
-    return () => interval.close();
+    return () => interval?.close();
   }, []);
 
   return (
