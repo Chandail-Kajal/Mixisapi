@@ -37,7 +37,7 @@ function Campaign() {
       setActiveIndex((p) => (p + 1) % 6);
     }, 3000);
 
-    return () => interval?.close();
+    return () => clearInterval(interval)
   }, []);
 
   return (
@@ -63,9 +63,8 @@ function Campaign() {
           {steps.map((step, index) => (
             <motion.li
               key={index}
-              className={`w-fit cursor-pointer px-4 py-3 rounded-full flex items-center gap-3 shadow-md relative overflow-hidden transition-all duration-300 transform hover:scale-105 ${
-                index === activeIndex ? "bg-white" : "bg-[#d6f5db]"
-              } hover:bg-[#c8eecd]`}
+              className={`w-fit cursor-pointer px-4 py-3 rounded-full flex items-center gap-3 shadow-md relative overflow-hidden transition-all duration-300 transform hover:scale-105 ${index === activeIndex ? "bg-white" : "bg-[#d6f5db]"
+                } hover:bg-[#c8eecd]`}
               tabIndex="0"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
