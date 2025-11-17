@@ -107,10 +107,10 @@ const Footer = () => {
             400602
           </p>
           <p className="flex items-center gap-2 mt-3 text-gray-300">
-            <span className="text-gray-500"><FaPhone /></span>Sales: +91 90046 45256
+            <span className="text-gray-300"><FaPhone /></span>Sales: +91 90046 45256
           </p>
           <p className="flex items-center gap-2 text-gray-300">
-            <span className="text-gray-500"><FaPhone /></span> Support: +91 9594 6869 06
+            <span className="text-gray-300"><FaPhone /></span> Support: +91 9594 6869 06
           </p>
           <p className="flex items-center gap-2 mt-3 text-gray-300">
             <span><IoMdMail/></span> sales@mittosapi.com
