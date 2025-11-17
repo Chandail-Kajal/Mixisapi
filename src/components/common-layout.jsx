@@ -57,10 +57,10 @@ function CommonLayout({ children }) {
         <Footer />
       </div>
 
-      <div class="fixed bottom-7 right-7 flex flex-col items-center gap-1 z-50">
+      <div className="fixed bottom-7 right-7 flex flex-col items-center gap-1 z-50">
         <a
           className="bg-green-500 p-2 rounded-full  hover:scale-110 transition-transform duration-300 focus:outline-none"
-          ariaLabel="Chat on WhatsApp"
+          aria-label="Chat on WhatsApp"
           tabIndex="0"
           href="https://api.whatsapp.com/send/?phone=919594686906&text&type=phone_number&app_absent=0"
         >

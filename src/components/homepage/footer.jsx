@@ -126,7 +126,7 @@ const Footer = () => {
           <ul className="space-y-3 text-gray-300">
             <li className="hover:text-green-400 transition">
               <a href="/">
-                › Features{" "}
+                Features{" "}
                 <span className="bg-green-600 text-xs px-2 py-1 rounded ml-2 animate-pulse">
                   LOWEST PRICING
                 </span>
@@ -207,7 +207,7 @@ const Footer = () => {
             className="h-6"
           />
           <img
-            src="https://cdn.freebiesupply.com/logos/large/2x/visa-electron-logo-png-transparent.png"
+            src="https://seeklogo.com/images/V/visa-electron-logo-8F8F8F8F65-seeklogo.com.png"
             alt="Visa Electron"
             className="h-6"
           />
