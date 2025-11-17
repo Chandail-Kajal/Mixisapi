@@ -71,6 +71,10 @@ export default function FAQSection() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  const ques = faqData.map((q, id) => ({ ...q, id }));
+  const leftFaqs = ques.filter((_, index) => index % 2 === 0);
+  const rightFaqs = ques.filter((_, index) => index % 2 !== 0);
+
   return (
     <div className="w-full py-20 bg-gradient-to-b from-white to-green-50">
       <div className="max-w-6xl mx-auto px-6">
@@ -78,44 +82,85 @@ export default function FAQSection() {
           Want To Know More?
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {faqData.map((item, index) => (
-            <div
-              key={index}
-              className="border rounded-2xl overflow-hidden shadow-sm transition-all duration-300 border-gray-200"
-            >
-              <button
-                onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center px-5 py-4 font-semibold text-left text-gray-800 transition-all duration-300 group bg-white hover:bg-gradient-to-r hover:from-green-50 hover:to-white"
+        <div className="flex flex-col md:flex-row justify-between gap-8">
+          <div className="md:w-[50%] flex flex-col gap-8">
+            {leftFaqs.map((item, index) => (
+              <div
+                key={item.id}
+                className="border rounded-2xl overflow-hidden shadow-sm transition-all duration-300 border-gray-200"
               >
-                <span className="pr-6">{item.question}</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className={`lucide lucide-chevron-down h-6 w-6 text-green-600 transform transition-transform duration-300 ${
-                    openIndex === index ? "rotate-180" : "rotate-0"
+                <button
+                  onClick={() => toggleFAQ(item.id)}
+                  className="w-full flex justify-between items-center px-5 py-4 font-semibold text-left text-gray-800 transition-all duration-300 group bg-white hover:bg-gradient-to-r hover:from-green-50 hover:to-white"
+                >
+                  <span className="pr-6">{item.question}</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className={`lucide lucide-chevron-down h-6 w-6 text-green-600 transform transition-transform duration-300 ${
+                      openIndex === item.id ? "rotate-180" : "rotate-0"
+                    }`}
+                  >
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </button>
+
+                <div
+                  className={`px-5 overflow-hidden transition-all duration-500 ease-in-out bg-white ${
+                    openIndex === item.id ? "max-h-[500px] py-4" : "max-h-0"
                   }`}
                 >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-
+                  <p className="text-gray-600 leading-relaxed">{item.answer}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="md:w-[50%] flex flex-col gap-8">
+            {rightFaqs.map((item, index) => (
               <div
-  className={`px-5 overflow-hidden transition-all duration-500 ease-in-out bg-white ${
-    openIndex === index ? "max-h-[500px] py-4" : "max-h-0"
-  }`}
->
-  <p className="text-gray-600 leading-relaxed">{item.answer}</p>
-</div>
-            </div>
-          ))}
+                key={item.id}
+                className="border rounded-2xl overflow-hidden shadow-sm transition-all duration-300 border-gray-200"
+              >
+                <button
+                  onClick={() => toggleFAQ(item.id)}
+                  className="w-full flex justify-between items-center px-5 py-4 font-semibold text-left text-gray-800 transition-all duration-300 group bg-white hover:bg-gradient-to-r hover:from-green-50 hover:to-white"
+                >
+                  <span className="pr-6">{item.question}</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className={`lucide lucide-chevron-down h-6 w-6 text-green-600 transform transition-transform duration-300 ${
+                      openIndex === item.id ? "rotate-180" : "rotate-0"
+                    }`}
+                  >
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </button>
+
+                <div
+                  className={`px-5 overflow-hidden transition-all duration-500 ease-in-out bg-white ${
+                    openIndex === item.id ? "max-h-[500px] py-4" : "max-h-0"
+                  }`}
+                >
+                  <p className="text-gray-600 leading-relaxed">{item.answer}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
