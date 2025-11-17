@@ -1,3 +1,4 @@
+import VideoPlayer from "@/components/video-player";
 import React from "react";
 
 const WhatsAppFlows = () => {
@@ -21,19 +22,24 @@ const WhatsAppFlows = () => {
 
               <ul className="mt-8 space-y-3 text-lg text-gray-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Collect customer info directly on WhatsApp.
+                  <span className="text-green-600">🟢</span> Collect customer
+                  info directly on WhatsApp.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Simple drag-and-drop form builder.
+                  <span className="text-green-600">🟢</span> Simple
+                  drag-and-drop form builder.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Automated replies after form submissions.
+                  <span className="text-green-600">🟢</span> Automated replies
+                  after form submissions.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Instant access to form analytics.
+                  <span className="text-green-600">🟢</span> Instant access to
+                  form analytics.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Perfect for bookings and feedback.
+                  <span className="text-green-600">🟢</span> Perfect for
+                  bookings and feedback.
                 </li>
               </ul>
 
@@ -81,34 +87,13 @@ const WhatsAppFlows = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-3 text-center md:text-left">
               WhatsApp Forms/Flows Tutorial
             </h2>
-            <div className="relative w-full aspect-video">
-              <div
-                className="w-full h-full bg-black rounded-lg overflow-hidden cursor-pointer border-green-500 border-4"
-                aria-label="Play video: WhatsApp Forms/Flows Tutorial"
-              >
-                <img
-                  src="https://img.youtube.com/vi/fCK8MbQkoLc/hqdefault.jpg"
-                  alt="WhatsApp Forms/Flows Tutorial"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 hover:bg-opacity-10 transition-all duration-300">
-                  <div className="bg-green-500 rounded-full p-3 md:p-4 hover:scale-110 transition-transform">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="white"
-                      viewBox="0 0 24 24"
-                      className="w-8 h-8 md:w-10 md:h-10"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <VideoPlayer
+              thumbnail="https://img.youtube.com/vi/fCK8MbQkoLc/hqdefault.jpg"
+              video="https://www.youtube.com/embed/fCK8MbQkoLc?start=0&autoplay=1"
+            />
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import VideoPlayer from "@/components/video-player";
 import React from "react";
 
 const WhatsAppAIChatbotPage = () => {
@@ -18,16 +19,20 @@ const WhatsAppAIChatbotPage = () => {
               </h2>
               <ul className="mt-8 space-y-3 text-lg text-gray-700">
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Anyone can now build an AI Chatbot on WhatsApp.
+                  <span className="text-green-600">🟢</span> Anyone can now
+                  build an AI Chatbot on WhatsApp.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Talk to your customer on time.
+                  <span className="text-green-600">🟢</span> Talk to your
+                  customer on time.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> Simple drag-and-drop chatbot builder.
+                  <span className="text-green-600">🟢</span> Simple
+                  drag-and-drop chatbot builder.
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-600">🟢</span> AI that can sell on Chat.
+                  <span className="text-green-600">🟢</span> AI that can sell on
+                  Chat.
                 </li>
               </ul>
               <div className="flex items-center gap-3 m-8">
@@ -41,7 +46,8 @@ const WhatsAppAIChatbotPage = () => {
                 </button>
               </div>
               <p className="text-sm text-gray-500 flex items-center gap-1">
-                <span className="text-orange-600">▢</span> No credit card required
+                <span className="text-orange-600">▢</span> No credit card
+                required
               </p>
               <div className="mt-3">
                 <img
@@ -65,28 +71,10 @@ const WhatsAppAIChatbotPage = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-3 text-center md:text-left">
               WhatsApp AI Chatbot Tutorial
             </h2>
-            <div className="relative w-full aspect-video">
-              <div className="w-full h-full bg-black rounded-lg overflow-hidden cursor-pointer border-green-500 border-4">
-                <img
-                  src="https://img.youtube.com/vi/fYAnzyKijTo/hqdefault.jpg"
-                  alt="WhatsApp AI Chatbot Tutorial"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 hover:bg-opacity-10 transition-all duration-300">
-                  <div className="bg-green-500 rounded-full p-3 md:p-4 hover:scale-110 transition-transform">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="white"
-                      viewBox="0 0 24 24"
-                      className="w-8 h-8 md:w-10 md:h-10"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <VideoPlayer
+              thumbnail="https://img.youtube.com/vi/BPKQhRUccHs/hqdefault.jpg"
+              video="https://www.youtube.com/embed/BPKQhRUccHs?start=32&autoplay=1"
+            />
           </div>
         </div>
       </div>

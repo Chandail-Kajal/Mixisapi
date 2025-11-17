@@ -1,3 +1,4 @@
+import VideoPlayer from "@/components/video-player";
 import React from "react";
 
 const WhatsAppInbox = () => {
@@ -16,7 +17,8 @@ const WhatsAppInbox = () => {
               </div>
 
               <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-6">
-                WhatsApp API Live <span className="block">Shared Team Inbox</span>
+                WhatsApp API Live{" "}
+                <span className="block">Shared Team Inbox</span>
               </h2>
 
               <ul className="space-y-3 text-lg text-gray-700 mb-8">
@@ -78,39 +80,15 @@ const WhatsAppInbox = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-3 text-center md:text-left">
               Shared Team Tutorial
             </h2>
-            <div className="relative w-full aspect-video">
-              <div
-                className="w-full h-full bg-black rounded-lg overflow-hidden cursor-pointer border-green-500 border-4"
-                aria-label="Play video: Shared Team Tutorial"
-              >
-                <img
-                  src="https://img.youtube.com/vi/1-3ooLY6YTM/hqdefault.jpg"
-                  alt="Shared Team Tutorial"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 hover:bg-opacity-10 transition-all duration-300">
-                  <div className="bg-green-500 rounded-full p-3 md:p-4 hover:scale-110 transition-transform">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="white"
-                      viewBox="0 0 24 24"
-                      className="w-8 h-8 md:w-10 md:h-10"
-                    >
-                      <path d="M8 5v14l11-7z"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <VideoPlayer
+              thumbnail="https://img.youtube.com/vi/1-3ooLY6YTM/hqdefault.jpg"
+              video="https://www.youtube.com/embed/1-3ooLY6YTM?start=17&autoplay=1"
+            />
           </div>
         </div>
 
         {/* FAQ Section */}
-       
       </div>
-
-    
     </div>
   );
 };

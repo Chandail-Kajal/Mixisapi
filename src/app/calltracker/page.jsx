@@ -1,3 +1,4 @@
+import VideoPlayer from "@/components/video-player";
 import React from "react";
 
 const CallTracker = () => {
@@ -63,31 +64,10 @@ const CallTracker = () => {
             <h2 className="text-xl md:text-2xl font-bold mb-3 text-center md:text-left">
               Call Tracker Tutorial
             </h2>
-            <div className="relative w-full aspect-video">
-              <div
-                className="w-full h-full bg-black rounded-lg overflow-hidden cursor-pointer border-green-500 border-4"
-                aria-label="Play video: Call Tracker Tutorial"
-              >
-                <img
-                  src="https://img.youtube.com/vi/ARk-mS5K7xI/hqdefault.jpg"
-                  alt="Call Tracker Tutorial"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30 hover:bg-opacity-10 transition-all duration-300">
-                  <div className="bg-green-500 rounded-full p-3 md:p-4 hover:scale-110 transition-transform">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="white"
-                      viewBox="0 0 24 24"
-                      className="w-8 h-8 md:w-10 md:h-10"
-                    >
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <VideoPlayer
+              thumbnail="https://img.youtube.com/vi/ARk-mS5K7xI/hqdefault.jpg"
+              video="https://www.youtube.com/embed/ARk-mS5K7xI?start=0&autoplay=1"
+            />
           </div>
         </section>
 
@@ -102,7 +82,10 @@ const CallTracker = () => {
             <div className="relative flex items-center justify-between w-full max-w-3xl mx-auto mb-12">
               <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-gray-300 -z-0" />
               {[1, 2, 3, 4].map((n) => (
-                <div key={n} className="relative z-10 flex flex-col items-center">
+                <div
+                  key={n}
+                  className="relative z-10 flex flex-col items-center"
+                >
                   <div className="w-10 h-10 flex items-center justify-center rounded-full bg-green-200 text-green-800 font-bold">
                     {n}
                   </div>
@@ -134,9 +117,6 @@ const CallTracker = () => {
           </div>
         </section>
       </div>
-
-      
-    
     </div>
   );
 };
