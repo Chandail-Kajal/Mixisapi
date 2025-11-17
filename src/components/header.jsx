@@ -846,7 +846,7 @@ function Header({ mobileMenu, setMobileMenu }) {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                class="lucide lucide-x text-gray-700"
+                className="lucide lucide-x text-gray-700"
               >
                 <path d="M18 6 6 18"></path>
                 <path d="m6 6 12 12"></path>

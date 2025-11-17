@@ -1,5 +1,8 @@
 "use client";
 import React from "react";
+import { FaMapMarkedAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
+import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -100,17 +103,18 @@ const Footer = () => {
             📞 Contact Us
           </h3>
           <p className="flex items-center gap-2 text-gray-300">
-            <span>📍</span> 1207, 12th Floor, Paradise Tower, Thane, Maharashtra
+            <span><FaMapMarkerAlt/></span> 1207, 12th Floor, Paradise Tower, Thane, Maharashtra
             400602
           </p>
           <p className="flex items-center gap-2 mt-3 text-gray-300">
-            <span>📞</span> Sales: +91 90046 45256
+            <span className="text-gray-500"><FaPhone /></span>Sales: +91 90046 45256
           </p>
           <p className="flex items-center gap-2 text-gray-300">
-            <span>📞</span> Support: +91 9594 6869 06
+            <span className="text-gray-500"><FaPhone /></span> Support: +91 9594 6869 06
           </p>
           <p className="flex items-center gap-2 mt-3 text-gray-300">
-            <span>📧</span> sales@mittosapi.com
+            <span><IoMdMail/>
+            </span> sales@mittosapi.com
           </p>
           <p className="flex items-center gap-2 text-gray-300">
             <span>📧</span> support@mittosapi.com
@@ -207,7 +211,7 @@ const Footer = () => {
             className="h-6"
           />
           <img
-            src="https://seeklogo.com/images/V/visa-electron-logo-8F8F8F8F65-seeklogo.com.png"
+            src="https://cdn.freebiesupply.com/logos/large/2x/visa-electron-logo-png-transparent.png"
             alt="Visa Electron"
             className="h-6"
           />
