@@ -17,12 +17,23 @@ import Section1 from "@/components/homepage/section1";
 import WhatsappAds from "@/components/homepage/whatsapp-ads";
 import WhatsAppForms from "@/components/homepage/whatsapp-forms";
 import WhyTrustMittos from "@/components/homepage/why-trust-us";
+import Popup from "@/components/popup";
 import React from "react";
-import { motion } from "framer-motion";
 
 function Home() {
   return (
     <>
+      <Popup>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+          Congratulations
+        </h2>
+        <p className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 mt-4">
+          <span className="text-yellow-600 animate-pulse">Call Tracker</span>
+        </p>
+        <p className="text-base sm:text-lg md:text-xl font-semibold text-green-600 mb-4 bg-green-50 py-2 px-4 rounded-lg inline-block">
+          FREE
+        </p>
+      </Popup>
       <Section1 />
       <Founders />
       <HowItWorks />
@@ -42,7 +53,7 @@ function Home() {
           </h2>
           <div
             className="h-1 w-3/4 md:w-1/2 lg:w-2/5 bg-gradient-to-r from-green-600 to-green-600 mx-auto mt-3 rounded-full"
-          // style="transform: none;"
+            // style="transform: none;"
           ></div>
           <p className="mt-6 text-base md:text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
             MittosAPI supports more than 2,000+ applications for seamless
