@@ -16,7 +16,7 @@ function PlatformComparison() {
           <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition duration-200">
             <div className="bg-green-600 px-4 py-4 flex items-center justify-center space-x-3">
               <img
-                src="/assets/mittoslogo-C5UnFXGx.png"
+                src="https://mittosapi.com/assets/mittoslogo-C5UnFXGx.png"
                 alt="MittosAPI logo"
                 className="h-10 w-auto object-contain bg-white rounded p-1"
               />
@@ -442,7 +442,7 @@ function PlatformComparison() {
           <div className="bg-white rounded-lg border border-gray-200 hover:shadow-lg transition duration-200">
             <div className="bg-green-600 px-4 py-4 flex items-center justify-center space-x-3">
               <img
-                src="/assets/Aisensy-DlxB96tQ.jpeg"
+                src="https://mittosapi.com/assets/Aisensy-DlxB96tQ.jpeg"
                 alt="Aisensy logo"
                 className="h-10 w-auto object-contain bg-white rounded p-1"
               />
@@ -633,7 +633,9 @@ function PlatformComparison() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span className="text-gray-700 text-sm">2400 Messages/min</span>
+                  <span className="text-gray-700 text-sm">
+                    2400 Messages/min
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <svg
@@ -682,7 +684,9 @@ function PlatformComparison() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span className="text-gray-700 text-sm">Shared Team Inbox</span>
+                  <span className="text-gray-700 text-sm">
+                    Shared Team Inbox
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <svg
@@ -896,7 +900,9 @@ function PlatformComparison() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span className="text-gray-700 text-sm">No Template Markups</span>
+                  <span className="text-gray-700 text-sm">
+                    No Template Markups
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <svg
@@ -945,7 +951,9 @@ function PlatformComparison() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span className="text-gray-700 text-sm">Unlimited Contacts</span>
+                  <span className="text-gray-700 text-sm">
+                    Unlimited Contacts
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <svg
@@ -1111,7 +1119,9 @@ function PlatformComparison() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span className="text-gray-700 text-sm">Basic messaging API</span>
+                  <span className="text-gray-700 text-sm">
+                    Basic messaging API
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <svg
