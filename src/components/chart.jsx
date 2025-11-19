@@ -54,7 +54,8 @@ const Chart = () => {
            fontSize: "16px",
         }} 
         itemStyle={{ color: "#22C55E",
-          fontWeight: "bold"
+          fontWeight: "bold",
+          fontSize: "16px"
         }} 
       />
       <Area
