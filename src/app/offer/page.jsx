@@ -34,7 +34,7 @@ const OffersPage = () => {
                             <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent translate-x-[-100%] animate-[shine_2s_infinite]"></span>
                         </div>
                     </div>
-                    <button className="relative flex bg-gradient-to-r from-green-500 via-emerald-500 to-teal-400 text-white font-bold py-4 px-12 rounded-full text-xl shadow-[0_8px_30px_rgba(34,197,94,0.6)]
+                    <button className="relative flex mx-auto bg-gradient-to-r from-green-500 via-emerald-500 to-teal-400 text-white font-bold py-4 px-12 rounded-full text-xl shadow-[0_8px_30px_rgba(34,197,94,0.6)]
              hover:shadow-[0_10px_40px_rgba(34,197,94,0.8)] transition-all duration-500 overflow-hidden uppercase tracking-wide">
                         <span className="relative z-10 flex items-center justify-center gap-2 drop-shadow-[0_0_6px_rgba(255,255,255,0.4)]"></span>
                         Switch Now
