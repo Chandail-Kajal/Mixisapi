@@ -108,8 +108,10 @@ function Section1() {
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-6">
                     <Link href="/forms">
                       <button className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-3.5 rounded-xl font-semibold text-lg shadow-md hover:shadow-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 flex items-center justify-center gap-2">
-                        Try Mittos API for FREE
-                        <span className="text-xl"></span>
+                        Try Mittos API for FREE {" "}
+                        <span className="text-xl">
+                          <svg stroke="currentColor" fill="currentColor" viewBox="0 0 448 512" class="inline ml-2" height="1em" width="1em"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
+                        </span>
                       </button>
                     </Link>
                     <Link href="/offer">
@@ -117,7 +119,8 @@ function Section1() {
                         <span className="absolute inset-0 bg-gradient-to-r from-green-400 via-emerald-500 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></span>
                         <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out bg-gradient-to-r from-transparent via-white/60 to-transparent"></span>
                         <div className="relative z-10 flex items-center gap-2 text-lg font-bold tracking-wide group-hover:text-white transition-colors duration-300">
-                          Switch and Save
+                          Switch and Save {" "}
+                          <svg stroke="currentColor" fill="currentColor" viewBox="0 0 448 512" class="inline ml-2" height="1em" width="1em"><path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
                           <span className="text-xl group-hover:translate-x-1 transition-transform"></span>
                         </div>
                         <p className="relative z-10 mt-1 text-xs text-gray-600 italic group-hover:text-green-100 transition-colors duration-300">

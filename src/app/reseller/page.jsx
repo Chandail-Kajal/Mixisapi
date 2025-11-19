@@ -1,11 +1,23 @@
 "use client";
 import Founders from "@/components/homepage/founders";
+import Popup from "@/components/popup";
 import React from "react";
 
 export default function Reseller
 () {
   return (
     <div className="flex flex-col min-h-screen w-full max-w-[100vw] overflow-x-hidden">
+      <Popup>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+          Congratulations
+        </h2>
+        <p className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 mt-4">
+          <span className="text-yellow-600 animate-pulse">Save 7-8X</span>
+        </p>
+        <p className="text-base sm:text-lg md:text-xl font-semibold text-green-600 mb-4 bg-green-50 py-2 px-4 rounded-lg inline-block">
+          on Broadcasting
+        </p>
+      </Popup>
       <div className="flex-grow">
         <div className="overflow-x-hidden">
           <section className="w-full bg-gradient-to-br from-green-50 via-white to-green-100 overflow-x-hidden">
@@ -199,18 +211,7 @@ export default function Reseller
           </section>
 
           {/* FOUNDERS LOVE US */}
-          <section className="py-6 bg-[#EBFFF1] overflow-hidden">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-6">
-              <h2 className="text-3xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
-                <h2>Founders &amp; Marketers <span className="text-red-500">Love</span> us</h2>
-              </h2>
-              <p className="text-base text-gray-600">
-                Trusted by 50,000+ Businesses across 20+ Countries
-              </p>
-            </div>
-
-            <div className="relative mb-6 overflow-hidden"></div>
-          </section>
+         
 
         </div>
         <Founders/>

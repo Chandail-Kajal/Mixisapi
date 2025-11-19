@@ -3,7 +3,21 @@ import React from "react";
 export default function Integration() {
   return (
     <section className="py-6 px-6 bg-gray-50">
-      <div className="text-center mb-14">
+           <div className="w-full text-white text-center py-3 px-4 sm:px-6 text-base sm:text-lg md:text-xl font-semibold tracking-wide shadow-md relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-green-600 via-green-700 to-black bg-[length:300%_300%] animate-gradient"></div>
+          <div className="relative z-10 text-2xl">
+            Convert{" "}
+            <span className="font-extrabold text-yellow-300">Marketing</span>{" "}
+            <span className="text-white">Templates into</span>{" "}
+            <span className="text-yellow-300 font-extrabold">Utility</span>={" "}
+            <span className="font-extrabold text-yellow-300 relative text-2xl sm:text-3xl md:text-4xl">
+              Save 7 -8x
+            </span>{" "}
+            on Broadcasting
+          </div>
+        </div>
+      <div className="text-center mb-14 mt-6">
+        
         <h3 className="text-3xl font-bold uppercase text-green-600 tracking-wide">
           Seamless Integrations
         </h3>
@@ -185,6 +199,7 @@ export default function Integration() {
             </button>
           </a>
         </div>
+        
       </div>
     </section>
   );
