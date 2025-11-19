@@ -16,7 +16,7 @@ const OffersPage = () => {
                     </div>
                     <h2 className="text-4xl md:text-5xl font-extrabold mb-4 leading-snug text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">
                         Switch to
-                        <span className="bg-gradient-to-r from-emerald-400 to-green-300 text-transparent bg-clip-text">
+                        <span className="bg-gradient-to-r from-emerald-400 to-green-300 text-transparent bg-clip-text px-1">
                             Mittos API
                         </span>
                         & Unlock Premium Savings
