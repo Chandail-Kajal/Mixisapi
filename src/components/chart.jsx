@@ -41,7 +41,7 @@ const Chart = () => {
 
   return (
 
-    <AreaChart className="h-full w-full" style={{}} responsive data={data}>
+    <AreaChart className="h-full w-full " style={{}} responsive data={data}>
       <CartesianGrid horizontal vertical={false} strokeDasharray="3 3" />
       <XAxis dataKey="name" />
       <Tooltip
@@ -50,6 +50,12 @@ const Chart = () => {
           border: "1px solid #D1D5DB",
           borderRadius: "8px",
         }}
+        labelStyle={{ color: "#000000" ,
+           fontSize: "16px",
+        }} 
+        itemStyle={{ color: "#22C55E",
+          fontWeight: "bold"
+        }} 
       />
       <Area
         type="monotone"

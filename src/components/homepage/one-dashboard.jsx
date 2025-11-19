@@ -46,7 +46,7 @@ function OneDashboard() {
           variants={{hidden:{opacity:0, y:40}, visible}}
           className="bg-white shadow-lg rounded-full px-4 sm:px-8 py-3 flex items-center justify-center mt-8 sm:mt-12 overflow-x-auto"
         >
-          <ul className="flex space-x-2 sm:space-x-6 text-gray-600 font-medium whitespace-nowrap">
+          <ul className="flex space-x-2 sm:space-x-6 text-gray-600 font-medium whitespace-nowrap ">
             {["Clients", "Follow Ups", "Team", "Content", "Integrations"].map(
               (item) => (
                 <motion.li  variants={{hidden:{opacity:0, y:40}, visible}} key={item}>
@@ -74,8 +74,8 @@ function OneDashboard() {
          viewport={{amount:0.4, once:true}}
         className="mt-10 sm:mt-16 grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
           {/* Chart + Stats */}
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-            <motion.div  variants={{hidden:{opacity:0, y:40}, visible}} custom={5} className="flex-1 shadow-2xl border rounded-3xl p-4 sm:p-6 bg-white hover:shadow-green-200 transition">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 ">
+            <motion.div  variants={{hidden:{opacity:0, y:40}, visible}} custom={5} className="flex-1 shadow-2xl border rounded-3xl p-4 sm:p-6 bg-white hover:shadow-green-200 transition border-gray-200">
               <h3 className="text-green-500 font-bold text-lg sm:text-xl">
                 98.5%
               </h3>
