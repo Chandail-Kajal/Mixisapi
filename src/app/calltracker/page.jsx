@@ -1,7 +1,18 @@
 import VideoPlayer from "@/components/video-player";
 import React from "react";
+import { BsDownload } from "react-icons/bs";
+import { FaUserAlt } from "react-icons/fa";
+import { IoCall } from "react-icons/io5";
+import { MdAddCall } from "react-icons/md";
 
 const CallTracker = () => {
+  const iconsArr = [
+    <FaUserAlt size={36} key={1} />,
+    <MdAddCall size={36} key={2} />,
+    <BsDownload size={36} key={2} />,
+    <IoCall size={36} key={4} />,
+  ];
+
   return (
     <div className="flex flex-col min-h-screen w-full max-w-[100vw] overflow-x-hidden">
       <div className="flex-grow">
@@ -107,7 +118,7 @@ const CallTracker = () => {
                     i === 1 ? "border-purple-500" : "border-gray-200"
                   } flex flex-col items-center justify-center gap-4`}
                 >
-                  <div className="text-4xl text-gray-800">✅</div>
+                  <div className="text-4xl text-gray-800">{iconsArr[i]}</div>
                   <p className="text-sm font-medium text-gray-800 text-center">
                     {i + 1}. {step}
                   </p>

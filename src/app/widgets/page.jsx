@@ -1,12 +1,7 @@
-import React from 'react'
-import { FaQ } from 'react-icons/fa6'
+import React from "react";
 
-function Widgets() {
-  return (
-    <div>
-        <FaQ/>
-    </div>
-  )
+function WidgetPage() {
+  return <></>;
 }
 
-export default Widgets
+export default WidgetPage;
