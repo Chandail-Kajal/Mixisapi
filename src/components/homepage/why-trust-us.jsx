@@ -2,22 +2,17 @@ import React from "react";
 
 const WhyTrustMittos = () => {
     return (
-        <section className="bg-gradient-to-br from-green-50 to-green-50 py-16 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-6xl mx-auto items-center">
+        <section className="bg-gradient-to-br from-green-50 to-green-50 py-16 px-4 sm:px-6 lg:px-8 flex text-center">
+            <div className="max-w-6xl mx-auto items-center  text-center">
     
                 <div className="text-center mb-12">
                     <h1 className="text-3xl md:text-5xl font-bold text-green-600 mb-4">
                         Why Trust Mixis API
                     </h1>
-                    <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-                        <span className="font-semibold bg-gradient-to-r from-green-600 to-green-600 bg-clip-text text-transparent">
-                            Awarded By CEO of Bharat Pay Mr. Ashneer Grover
-                        </span>
-                    </p>
+                   
                 </div>
-                <div className="flex flex-col lg:flex-row gap-8 mb-16">
-                  <div className="w-full lg:w-1/4">
-                        </div>
+                <div className="flex flex-col lg:flex-row gap-8 mb-16 text-center">
+                  
                     <div className="flex-1 flex flex-col gap-6">
                         <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
                             <p className="text-base xl:text-lg lg:text-xl text-gray-700 mb-4 leading-relaxed">
