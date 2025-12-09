@@ -10,8 +10,8 @@ function rand(min, max) {
 export default function AnimatedBackground({
   blobRadiusA = 120,
   blobRadiusB = 100,
-  colorA = "rgba(166, 247, 190)", // green
-  colorB = "rgba(166, 247, 190)", // green
+  colorA = "rgba(140, 255, 174)", // green
+  colorB = "rgba(140, 255, 174)", // green
   blur = 80,
   speedScale = 1.0,
 }) {
