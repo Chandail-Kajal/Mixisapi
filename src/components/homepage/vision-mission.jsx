@@ -56,7 +56,7 @@ const VisionMission = () => {
             <h3 className="text-2xl font-bold text-gray-900">Mission</h3>
             <p className="text-gray-700 leading-relaxed text-lg">
               Becoming market leaders by empowering 5 Million+ businesses via
-              MittosAPI. Let's build the most amazing, mission-driven, and loved
+              MixisAPI. Let's build the most amazing, mission-driven, and loved
               brands in history!
             </p>
           </div>

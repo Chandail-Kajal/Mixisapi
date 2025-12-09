@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Column 1 */}
         <div>
           <h2 className="text-green-400 text-3xl font-bold tracking-wide">
-            Mittos API
+            Mixis API
           </h2>
           <p className="text-sm mt-3 leading-relaxed text-gray-300">
             Broadcast Messages, Automate, Engage, Sell – Do Everything with

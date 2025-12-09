@@ -38,7 +38,7 @@ const DisclaimerPage = () => {
               <div className="prose max-w-none text-gray-700">
                 <p>
                   The information provided by{" "}
-                  <span className="font-semibold">MittosAPI</span> ("we," "our,"
+                  <span className="font-semibold">MixisAPI</span> ("we," "our,"
                   or "us") on this website is for general informational and
                   educational purposes only.
                 </p>
@@ -52,7 +52,7 @@ const DisclaimerPage = () => {
                   business model, marketing efforts, and implementation of
                   strategies.{" "}
                   <span className="font-semibold">
-                    MittosAPI does not provide financial, legal, or investment
+                    MixisAPI does not provide financial, legal, or investment
                     advice.
                   </span>
                 </p>

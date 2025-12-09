@@ -3,11 +3,11 @@ import React from "react";
 const WhyTrustMittos = () => {
     return (
         <section className="bg-gradient-to-br from-green-50 to-green-50 py-16 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-6xl mx-auto">
-                {/* Header */}
+            <div className="max-w-6xl mx-auto items-center">
+    
                 <div className="text-center mb-12">
                     <h1 className="text-3xl md:text-5xl font-bold text-green-600 mb-4">
-                        Why Trust Mittos API
+                        Why Trust Mixis API
                     </h1>
                     <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
                         <span className="font-semibold bg-gradient-to-r from-green-600 to-green-600 bg-clip-text text-transparent">
@@ -15,34 +15,13 @@ const WhyTrustMittos = () => {
                         </span>
                     </p>
                 </div>
-
-                {/* Award + Description */}
                 <div className="flex flex-col lg:flex-row gap-8 mb-16">
-                    {/* Award Card */}
-                    <div className="w-full lg:w-1/4">
-                        <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-                            <img
-                                src="https://mittosapi.com/assets/Award-C0veRN4t.webp"
-                                alt="Mr. Ashneer Grover with Mittos Team"
-                                className="w-full h-auto object-cover"
-                            />
-                            <div className="p-6 text-center bg-gradient-to-r from-green-50 to-green-50">
-                                <p className="font-bold text-gray-800 text-lg">
-                                    Mr. Ashneer Grover
-                                </p>
-                                <p className="text-gray-600">CEO of Bharat Pay</p>
-                                <p className="text-sm text-gray-500 mt-2 font-medium">
-                                    Awarding Mittos API in 2024
-                                </p>
-                            </div>
+                  <div className="w-full lg:w-1/4">
                         </div>
-                    </div>
-
-                    {/* Description + Stats */}
                     <div className="flex-1 flex flex-col gap-6">
                         <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8">
                             <p className="text-base xl:text-lg lg:text-xl text-gray-700 mb-4 leading-relaxed">
-                                <span className="font-bold text-green-600">Mittos API</span> –
+                                <span className="font-bold text-green-600">Mixis API</span> –
                                 {`India's No.1 WhatsApp Official API Solutions Provider with a
                 global presence for over 5 years.`}
                             </p>
@@ -55,8 +34,7 @@ const WhyTrustMittos = () => {
                                 Pay CEO Mr. Ashneer Grover in 2024.
                             </p>
                         </div>
-
-                        {/* Stats Grid */}
+                        
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
                             <StatCard value="50,000+" label="Worldwide Clients" />
                             <StatCard
@@ -96,7 +74,7 @@ const WhyTrustMittos = () => {
                     </div>
                 </div>
 
-                {/* CTA Button */}
+            
                 <div className="text-center">
                     <a href="/forms">
                         <button className="bg-gradient-to-r from-green-600 to-green-600 text-white font-bold py-4 px-8 rounded-xl shadow-xl text-base md:text-lg hover:shadow-2xl transition-all">
@@ -122,7 +100,7 @@ const WhyTrustMittos = () => {
     );
 };
 
-// ✅ Reusable StatCard Component
+
 const StatCard = ({ value, label }) => (
     <div className="bg-white rounded-2xl shadow-lg p-6 xl:p-10 text-center">
         <div className="text-2xl md:text-3xl font-bold text-green-600 mb-2 flex justify-center items-center">
@@ -134,7 +112,6 @@ const StatCard = ({ value, label }) => (
     </div>
 );
 
-// ✅ SVG Icons
 const AwardIcon = () => (
     <svg viewBox="0 0 576 512" fill="currentColor" height="1em" width="1em">
         <path d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24z" />

@@ -33,7 +33,7 @@ const RefundPolicy = () => {
             <div className="prose max-w-none text-gray-700">
               <p className="mb-6">
                 This policy is designed to be fair and reasonable, ensuring that
-                customers feel secure in their transactions with MittosAPI,
+                customers feel secure in their transactions with MixisAPI,
                 while also protecting the company from potential abuse of the
                 refund process.
               </p>
@@ -42,7 +42,7 @@ const RefundPolicy = () => {
                 1. Trial Period
               </h2>
               <p className="mb-6">
-                MittosAPI offers a free trial for new users, during which they
+                MixisAPI offers a free trial for new users, during which they
                 can explore the Basic Plan features available on the platform
                 along with a free trial of Chatbot Flows. Since no credit card
                 is required to start the trial, users are not charged.
@@ -53,12 +53,12 @@ const RefundPolicy = () => {
               </h2>
               <p className="mb-6">
                 Following the free trial, if a user subscribes to any of
-                MittosAPI's paid services, they are ineligible to receive a
+                MixisAPI's paid services, they are ineligible to receive a
                 refund. The FREE trial is provided to ensure that the users try
                 out all the services and decide whether to continue with the
-                MittosAPI platform. If the user feels unsatisfied, they can
+                MixisAPI platform. If the user feels unsatisfied, they can
                 cancel their FREE Trial anytime and they will not be charged. If
-                the user has subscribed to any MittosAPI plan, they are not
+                the user has subscribed to any MixisAPI plan, they are not
                 eligible for a refund. They can cancel their subscription to
                 ensure they are not charged the next Year.
               </p>
@@ -67,10 +67,10 @@ const RefundPolicy = () => {
                 3. Non-Refundable Services
               </h2>
               <p className="mb-6">
-                All MittosAPI services, such as the charges for a MittosAPI
+                All MixisAPI services, such as the charges for a MixisAPI
                 Plan, WhatsApp Conversation Credits (WCCs), Add-ons or any
                 third-party integrations, are non-refundable due to the nature
-                of the service and the costs incurred by MittosAPI to provide
+                of the service and the costs incurred by MixisAPI to provide
                 these services. This includes one-time setup payments.
               </p>
 
@@ -80,8 +80,8 @@ const RefundPolicy = () => {
               <p className="mb-6">
                 If a user experiences continuous technical issues that prevent
                 them from using the service effectively, and if these issues are
-                verified by MittosAPI's support team, a partial or full refund
-                may be granted at MittosAPI's discretion.
+                verified by MixisAPI's support team, a partial or full refund
+                may be granted at MixisAPI's discretion.
               </p>
 
               <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
@@ -99,7 +99,7 @@ const RefundPolicy = () => {
               </h2>
               <p className="mb-6">
                 For any Support-related queries, users are encouraged to contact
-                MittosAPI's customer support team, which is committed to
+                MixisAPI's customer support team, which is committed to
                 providing efficient and personalized assistance.
               </p>
 
@@ -122,9 +122,9 @@ const RefundPolicy = () => {
                 8. Policy Amendments
               </h2>
               <p className="mb-6">
-                MittosAPI reserves the right to modify this refund policy at any
+                MixisAPI reserves the right to modify this refund policy at any
                 time, and the changes will be effective immediately upon posting
-                the updated policy on the MittosAPI website.
+                the updated policy on the MixisAPI website.
               </p>
 
               <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
@@ -132,7 +132,7 @@ const RefundPolicy = () => {
               </h2>
               <p className="mb-6">
                 This refund policy complies with the local laws and regulations
-                where MittosAPI operates. Users are also encouraged to review
+                where MixisAPI operates. Users are also encouraged to review
                 the{" "}
                 <a
                   className="text-green-600 hover:underline"

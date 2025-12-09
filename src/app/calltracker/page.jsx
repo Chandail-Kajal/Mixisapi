@@ -26,10 +26,10 @@ const CallTracker = () => {
                 </div>
               </div>
               <h2 className="text-4xl font-extrabold text-gray-900 mb-4">
-                Mittos Call Tracker
+                Mixis Call Tracker
               </h2>
               <p className="text-gray-600 mb-6 text-md leading-relaxed">
-                Mittos API call tracker is an android based mobile app that
+                Mixis API call tracker is an android based mobile app that
                 helps you track all incoming, outgoing and missed calls. The
                 tracker app auto-save the phone number, call details with person
                 name and other details to the audience management system. With

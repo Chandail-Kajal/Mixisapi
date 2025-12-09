@@ -154,7 +154,7 @@ function HowItWorks() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              How Mittos API Transforms Communication
+              How Mixis API Transforms Communication
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               See how our solution transforms challenges into seamless
@@ -164,13 +164,13 @@ function HowItWorks() {
 
           <div className="grid lg:grid-cols-2 gap-10">
             <Column
-              title="Before Mittos API"
+              title="Before Mixis API"
               color="red"
               items={beforeItems}
               type="before"
             />
             <Column
-              title="After Mittos API"
+              title="After Mixis API"
               color="green"
               items={afterItems}
               type="after"

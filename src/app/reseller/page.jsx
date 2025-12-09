@@ -34,7 +34,7 @@ export default function Reseller
               >
                 2X Profits
               </span>
-              {" "}only with <span className="font-extrabold">MittosAPI</span>
+              {" "}only with <span className="font-extrabold">MixisAPI</span>
             </div>
 
             {/* HERO SECTION */}
@@ -44,7 +44,7 @@ export default function Reseller
                   <h1 className="text-4xl sm:text-4xl lg:text-8xl font-extrabold leading-tight">
                     <br />
                     <span className="animated-gradient-text">
-                      Become a <span className="text-green-600">MittosAPI <br /> Reseller</span>
+                      Become a <span className="text-green-600">MixisAPI <br /> Reseller</span>
                     </span>
                   </h1>
 
@@ -81,9 +81,9 @@ export default function Reseller
           <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-20">
             <div className="text-center mb-14">
               <h1 className="text-5xl font-extrabold text-gray-900">
-                Deep dive into <span className="text-green-600">Mittos API</span> Partner Models
+                Deep dive into <span className="text-green-600">Mixis API</span> Partner Models
               </h1>
-              <p className="mt-3 text-lg text-gray-600 font-medium">MittosAPI Reseller Plan</p>
+              <p className="mt-3 text-lg text-gray-600 font-medium">MixisAPI Reseller Plan</p>
               <div className="mt-4 w-24 h-1 bg-green-500 mx-auto rounded-full"></div>
             </div>
 

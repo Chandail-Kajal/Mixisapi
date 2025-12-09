@@ -36,7 +36,7 @@ const TermsOfService = () => {
           {/* Content Section */}
           <div className="prose max-w-none text-gray-700">
             <p className="mb-6">
-              Welcome to MittosAPI. These Terms of Service ("Terms", "Agreement")
+              Welcome to MixisAPI. These Terms of Service ("Terms", "Agreement")
               govern your access to and use of our website, products, and
               services ("Services"). By using our Services, you agree to comply
               with these Terms. If you do not agree, please do not use our
@@ -44,10 +44,10 @@ const TermsOfService = () => {
             </p>
 
             <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-              1. About MittosAPI
+              1. About MixisAPI
             </h2>
             <p className="mb-6">
-              MittosAPI provides WhatsApp Official API, chatbot builder,
+              MixisAPI provides WhatsApp Official API, chatbot builder,
               automation tools, and related digital services that help
               businesses communicate efficiently with their customers.
             </p>
@@ -56,7 +56,7 @@ const TermsOfService = () => {
               2. Eligibility
             </h2>
             <p className="mb-6">
-              You must be at least 18 years old to use MittosAPI Services. By
+              You must be at least 18 years old to use MixisAPI Services. By
               using our Services, you confirm that you are legally capable of
               entering into a binding contract.
             </p>
@@ -74,7 +74,7 @@ const TermsOfService = () => {
               <li>Be responsible for all activities under your account.</li>
             </ul>
             <p className="mb-6">
-              MittosAPI reserves the right to suspend or terminate accounts
+              MixisAPI reserves the right to suspend or terminate accounts
               found in violation of our policies.
             </p>
 
@@ -82,7 +82,7 @@ const TermsOfService = () => {
               4. Use of Services
             </h2>
             <p className="mb-4">
-              You agree to use MittosAPI only for lawful business purposes and
+              You agree to use MixisAPI only for lawful business purposes and
               not for:
             </p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
@@ -90,7 +90,7 @@ const TermsOfService = () => {
               <li>Sharing illegal, abusive, or misleading content.</li>
               <li>Violating WhatsApp, Meta, or any third-party platform policies.</li>
               <li>
-                Reselling, redistributing, or cloning MittosAPI products without
+                Reselling, redistributing, or cloning MixisAPI products without
                 written permission.
               </li>
             </ul>
@@ -127,7 +127,7 @@ const TermsOfService = () => {
               >
                 Privacy Policy
               </a>
-              . By using MittosAPI, you consent to our collection and processing
+              . By using MixisAPI, you consent to our collection and processing
               of data for service improvement and analytics.
             </p>
 
@@ -136,7 +136,7 @@ const TermsOfService = () => {
             </h2>
             <p className="mb-6">
               All content, designs, software, and trademarks available on
-              MittosAPI are the intellectual property of MittosAPI. You may not
+              MixisAPI are the intellectual property of MixisAPI. You may not
               copy, modify, distribute, or use any part of our platform for
               commercial purposes without prior written consent.
             </p>
@@ -145,7 +145,7 @@ const TermsOfService = () => {
               8. Third-Party Integrations
             </h2>
             <p className="mb-6">
-              MittosAPI integrates with third-party platforms such as Meta,
+              MixisAPI integrates with third-party platforms such as Meta,
               WhatsApp, and payment gateways. We are not responsible for any
               downtime, data issues, or policy violations caused by these
               third-party services.
@@ -154,7 +154,7 @@ const TermsOfService = () => {
             <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
               9. Limitation of Liability
             </h2>
-            <p className="mb-4">MittosAPI and its team shall not be liable for:</p>
+            <p className="mb-4">MixisAPI and its team shall not be liable for:</p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
               <li>
                 Any loss of data, business, or profits resulting from use or
@@ -185,7 +185,7 @@ const TermsOfService = () => {
               11. Modifications
             </h2>
             <p className="mb-6">
-              MittosAPI reserves the right to modify or update these Terms at
+              MixisAPI reserves the right to modify or update these Terms at
               any time. Updated versions will be posted on our website with the
               new "Last Updated" date.
             </p>

@@ -163,7 +163,7 @@ const FormsPage = () => {
                         <div className="text-center mb-8">
                             <h2 className="text-2xl md:text-3xl font-bold text-gray-800">
                                 Get Started With{" "}
-                                <span className="text-green-600">MittosAPI</span>
+                                <span className="text-green-600">MixisAPI</span>
                             </h2>
                             <p className="text-gray-600 mt-2">
                                 Fill in the details to start your{" "}

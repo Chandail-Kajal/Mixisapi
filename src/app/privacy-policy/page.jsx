@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
           <div className="prose max-w-none text-gray-700">
             <p>
               This Privacy Policy describes how{" "}
-              <span className="font-semibold">MittosAPI</span> collects, uses,
+              <span className="font-semibold">MixisAPI</span> collects, uses,
               and protects your data when you use our website and services.
             </p>
 

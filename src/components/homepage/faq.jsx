@@ -3,39 +3,39 @@ import { useState } from "react";
 
 const faqData = [
   {
-    question: "What does Mittos API do?",
+    question: "What does Mixis API do?",
     answer:
-      "Mittos API provides businesses with a WhatsApp marketing software they can use to Broadcast & automate messages, run Click to WhatsApp Ads, build Chatbots, showcase catalogues, provide multi-agent Live chat support, collect payments within WhatsApp and much more.",
+      "Mixis API provides businesses with a WhatsApp marketing software they can use to Broadcast & automate messages, run Click to WhatsApp Ads, build Chatbots, showcase catalogues, provide multi-agent Live chat support, collect payments within WhatsApp and much more.",
   },
   {
-    question: "Is Mittos API an Official WhatsApp Marketing Software?",
+    question: "Is Mixis API an Official WhatsApp Marketing Software?",
     answer:
-      "Yes, Mittos API is an Official WhatsApp Business Solution Partner (BSP) built on WhatsApp Business APIs.",
+      "Yes, Mixis API is an Official WhatsApp Business Solution Partner (BSP) built on WhatsApp Business APIs.",
   },
   {
-    question: "How do I Get Started with Mittos API?",
+    question: "How do I Get Started with Mixis API?",
     answer:
       "To get started, simply visit our website https://whinta.com/signup, sign up for an account, and follow the setup instructions. Our support team is also available to assist you with the onboarding process.",
   },
   {
-    question: "Can I Integrate Mittos API With My Existing System?",
+    question: "Can I Integrate Mixis API With My Existing System?",
     answer:
-      "Yes, Mittos API offers API integration, allowing you to connect with your existing systems and applications for a unified workflow.",
+      "Yes, Mixis API offers API integration, allowing you to connect with your existing systems and applications for a unified workflow.",
   },
   {
-    question: "Is Mittos API Secure?",
+    question: "Is Mixis API Secure?",
     answer:
-      "Absolutely. Mittos API is built with robust security features to protect your data and ensure privacy in all communications.",
+      "Absolutely. Mixis API is built with robust security features to protect your data and ensure privacy in all communications.",
   },
   {
-    question: "Can I Use an Existing Number With Mittos API?",
+    question: "Can I Use an Existing Number With Mixis API?",
     answer:
-      "Yes, you can use your existing WhatsApp application number or existing WhatsApp API number with Mittos API.",
+      "Yes, you can use your existing WhatsApp application number or existing WhatsApp API number with Mixis API.",
   },
   {
     question: "How to Add/Recharge WhatsApp Credit Balance?",
     answer:
-      "You can add a balance through Mittos API Official App by yourself.",
+      "You can add a balance through Mixis API Official App by yourself.",
   },
   {
     question: "How Can I See My Credit Usages?",
@@ -48,14 +48,14 @@ const faqData = [
       "There is no such minimum balance required, but your WhatsApp API will stop working once the credit balance reaches amount 0.",
   },
   {
-    question: "Can I See The Demo of Mittos API?",
+    question: "Can I See The Demo of Mixis API?",
     answer:
       "Yes, we offer demos to showcase the features and benefits of Whinta. Please contact us to schedule a demo.",
   },
   {
-    question: "Can I Manage Multiple Teams and Users in Mittos API?",
+    question: "Can I Manage Multiple Teams and Users in Mixis API?",
     answer:
-      "Mittos API provides robust organization, user, and team management features, allowing you to assign roles, set permissions, and ensure efficient collaboration across your business.",
+      "Mixis API provides robust organization, user, and team management features, allowing you to assign roles, set permissions, and ensure efficient collaboration across your business.",
   },
   {
     question: "Can I Get a Refund?",

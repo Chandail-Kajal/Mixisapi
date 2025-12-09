@@ -266,7 +266,7 @@ function Revenue() {
             }}
           >
             <span className="font-bold md:text-[16px] text-[11px] relative z-10 ">
-              Mittos API Automation{" "}
+              Mixis API Automation{" "}
             </span>
             <span className="ml-1 bg-white">
               <img

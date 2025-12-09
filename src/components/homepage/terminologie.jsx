@@ -82,7 +82,7 @@ function Terminologie() {
               Unlimited Free Service Conversations
             </h3>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Each business using Mittos API receives{" "}
+              Each business using Mixis API receives{" "}
               <strong>Unlimited FREE service conversations</strong>. Businesses
               can reply to user messages without incurring any charges; it's
               completely FREE.

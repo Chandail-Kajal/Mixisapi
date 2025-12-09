@@ -35,7 +35,7 @@ const FeaturesPage = () => {
                 "rgb(0, 0, 0) 3px 3px 0px, rgba(0, 0, 0, 0.5) 4px 4px 0px, rgba(0, 0, 0, 0.5) 6px 6px 8px",
             }}
           >
-            MittosAPI
+            MixisAPI
           </span>
         </div>
       </div>
@@ -62,7 +62,7 @@ const FeaturesPage = () => {
             <div className="mt-8 flex flex-wrap gap-5">
               <a href="/forms">
                 <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold shadow-lg transition-transform transform hover:scale-105">
-                  Try Mittos API for FREE
+                  Try Mixis API for FREE
                 </button>
               </a>
 
@@ -140,7 +140,7 @@ const FeaturesPage = () => {
                 BRANDS
               </p>
               <p className="text-gray-500 text-sm mt-3 leading-relaxed">
-                Daily average of 50 businesses choose Mittos to grow their
+                Daily average of 50 businesses choose Mixis to grow their
                 business.
               </p>
             </div>

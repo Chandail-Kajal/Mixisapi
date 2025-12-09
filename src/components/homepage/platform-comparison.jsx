@@ -20,7 +20,7 @@ function PlatformComparison() {
                 alt="MittosAPI logo"
                 className="h-10 w-auto object-contain bg-white rounded p-1"
               />
-              <h2 className="text-lg font-semibold text-white">MittosAPI</h2>
+              <h2 className="text-lg font-semibold text-white">MixisAPI</h2>
             </div>
             <div className="p-4">
               <ul className="space-y-2">

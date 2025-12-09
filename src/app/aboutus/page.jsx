@@ -10,7 +10,7 @@ const AboutMittosAPI = () => {
         {/* Left Text Section */}
         <div className="flex-1">
           <h2 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
-            About <span className="text-green-600">MittosAPI</span>
+            About <span className="text-green-600">MixisAPI</span>
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
             We're a team of <span className="font-semibold">35+ hustlers</span>,

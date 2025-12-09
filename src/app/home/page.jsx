@@ -41,7 +41,7 @@ function Home() {
           // style="transform: none;"
           ></div>
           <p className="mt-6 text-base md:text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            MittosAPI supports more than 2,000+ applications for seamless
+            MixisAPI supports more than 2,000+ applications for seamless
             real-time data transfer. For example: When new sales happen on
             WooCommerce, Add customer details to&nbsp;Google&nbsp;Sheets
           </p>
