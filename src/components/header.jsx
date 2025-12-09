@@ -44,8 +44,9 @@ function Header({ mobileMenu, setMobileMenu }) {
         <div className="flex justify-between items-center h-16">
           <Link className="h-12 flex items-center" href="/">
             <img
-              src="https://mittosapi.com/assets/logo-olsw2ZoW.webp"
-              alt="logo"
+              src="/assets/Mixislogo.jpg" 
+              alt="Mixis" 
+          
               className="h-full object-contain"
             />
           </Link>

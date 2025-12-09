@@ -36,7 +36,7 @@ function Section1() {
 
           <section className="relative py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto relative z-10">
-              <div className="flex flex-wrap justify-center gap-6 mb-10">
+              <div className="flex flex-wrap justify-center gap-10 mb-10">
                 <div className="flex items-center gap-2 rounded-full border border-green-300 px-4 py-1 text-xs sm:text-base text-black font-semibold bg-gray-100 backdrop-blur-sm shadow-sm hover:border-green-500">
                   <svg
                     stroke="currentColor"
@@ -64,24 +64,7 @@ function Section1() {
                   />
                   Meta Business Partners
                 </div>
-                <div className="flex items-center gap-2 rounded-full border border-green-300 px-4 py-1 text-xs sm:text-base text-black font-semibold bg-gray-100 backdrop-blur-sm shadow-sm hover:border-green-500">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-award w-6 h-6 text-yellow-700"
-                  >
-                    <circle cx="12" cy="8" r="6"></circle>
-                    <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
-                  </svg>
-                  Awarded by Mr. Ashneer Grover 2024
-                </div>
+                
               </div>
               <div className="flex flex-col  items-center mx-auto">
                 <div className="flex flex-col justify-center items-center space-y-4 text-center">
