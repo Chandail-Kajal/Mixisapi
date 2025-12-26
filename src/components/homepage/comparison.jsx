@@ -24,7 +24,7 @@ const PRICING_DATA = {
   },
   ourProduct: {
     name: "MittosAPI",
-    logo: "https://mittosapi.com/assets/mittoslogo-C5UnFXGx.png",
+    logo: "https://mittosapi.com/assets/logo-C5UnFXGx.png",
     price: "₹7,999",
     period: "/year",
     planName: "Basic Plan",
@@ -97,6 +97,7 @@ const PopularBadge = () => (
     Popular
   </span>
 );
+
 
 const FeatureItem = ({ text, available, popular }) => (
   <li className={`flex items-center py-2 ${!available ? 'text-gray-400' : ''}`}>
@@ -185,8 +186,6 @@ const ComparisonSection = () => {
               </svg>
             </button>
           </a>
-
-          
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
             {STATS_DATA.map((stat, index) => (
               <StatCard
@@ -202,5 +201,4 @@ const ComparisonSection = () => {
     </section>
   );
 };
-
 export default ComparisonSection;
