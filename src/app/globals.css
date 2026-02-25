@@ -31,6 +31,9 @@
 
   --text-lg: 0.9375rem;
   --text-lg--line-height: 1.5rem;
+  
+  
+
 }
 
 body {
@@ -40,6 +43,15 @@ body {
 }
 
 @layer utilities {
+  @keyframes timerbar {
+    0% { width: 100%; }
+    100% { width: 0%; }
+  }
+
+  @keyframes scrollup {
+    0% { transform: translateY(0); }
+    100% { transform: translate(-100%); }
+  }
   @keyframes flowDown {
     0% {
       transform: translateY(-100%);
@@ -55,7 +67,10 @@ body {
       transform: translateY(400%);
       opacity: 0;
     }
+
   }
+  
+  
 
   @keyframes flowRight {
     0% {
@@ -178,6 +193,7 @@ body {
     to {
       background-position: 0% 50%;
     }
+    
   }
 
   /* Utility animation classes */
@@ -213,6 +229,13 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradientMove 8s linear infinite;
+  }
+  .animate-timebar{
+    animation: timebar 2s linear infinite;
+  }
+  .animate-scrollup{
+    animation: scrollup 2s linear infinite;
+
   }
  
 }

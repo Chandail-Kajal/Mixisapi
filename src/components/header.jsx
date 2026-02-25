@@ -720,26 +720,6 @@ function Header({ mobileMenu, setMobileMenu }) {
               </svg>
               <span>TUTORIALS</span>
             </a>
-            <a
-              className="flex items-center gap-2 text-gray-700 hover:text-green-500 font-medium text-sm transition-colors duration-200"
-              href="/reseller"
-            >
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth="0"
-                viewBox="0 0 448 512"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 
-                        48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z"
-                ></path>
-              </svg>
-              <span>BECOME RESELLER</span>
-            </a>
             <div className="relative" ref={mobileAppRef}>
               <button
                 onClick={() => handleOpenMenu("mobile-app")}
@@ -825,10 +805,10 @@ function Header({ mobileMenu, setMobileMenu }) {
           <div className="hidden lg:flex items-center space-x-4">
             <a href="/forms">
               <button
-                className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg 
-                    font-medium transition-colors duration-200"
+                className="bg-gradient-to-r from-green-700 to-green-900 text-white px-8 py-1.5 rounded-xl 
+                    font-medium "
               >
-                START NOW →
+                Start Now
               </button>
             </a>
           </div>

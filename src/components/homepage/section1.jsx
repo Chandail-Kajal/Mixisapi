@@ -2,28 +2,28 @@ import Link from "next/link";
 import React from "react";
 import { GiClick } from "react-icons/gi";
 import AnimatedBackground from "../animatedbackground";
+import { FaStar } from "react-icons/fa6";
+import { TbHandClick } from "react-icons/tb";
+import { AutoscrollMarquee } from "./test";
 
 function Section1() {
   return (
     <div>
       <div className="w-full text-white text-center py-3 px-4 sm:px-6 text-base sm:text-lg md:text-xl font-semibold tracking-wide shadow-md relative ">
-        <div className="absolute inset-0 bg-gradient-to-r from-green-600 via-green-700 to-black bg-[length:300%_300%] animate-gradient"></div>
-        <div className="relative z-10 text-yellow-300 text-2xl">
+        <div className="absolute inset-0 bg-green-500"></div>
+        <div className="relative z-10 text-white text-2xl">
           Buy →{" "}
-          <span className="font-extrabold text-white">
+          <span className=" text-white">
             WhatsApp API and Get
           </span>{" "}
-          ={" "}
+          -{" "}
           <span
-            className="font-extrabold text-yellow-300 relative text-2xl sm:text-3xl md:text-4xl pr-1"
-            style={{
-              textShadow:
-                "rgb(0, 0, 0) 3px 3px 0px, rgba(0, 0, 0, 0.5) 4px 4px 0px, rgba(0, 0, 0, 0.5) 6px 6px 8px",
-            }}
+            className=" text-yellow-300 relative pr-1"
+
           >
             Call Tracker
           </span>
-          <span className="font-extrabold underline text-white ">
+          <span className="  text-white ">
             FREE FREE FREE
           </span>
         </div>
@@ -37,7 +37,15 @@ function Section1() {
           <section className="relative py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto relative z-10">
               <div className="flex flex-wrap justify-center gap-10 mb-10">
-                <div className="flex items-center gap-2 rounded-full border border-green-300 px-4 py-1 text-xs sm:text-base text-black font-semibold bg-gray-100 backdrop-blur-sm shadow-sm hover:border-green-500">
+                <div className="flex items-center gap-2 rounded-md border border-green-400 px-4 py-1 text-xs sm:text-base text-black font-semibold  backdrop-blur-sm shadow-sm hover:border-green-500">
+                  <img
+                    src="https://mittosapi.com/assets/metalogohero-D7d0DTBg.jpg"
+                    alt="Meta Logo"
+                    className="w-6 h-6 object-contain"
+                  />
+                  Meta Business Partners
+                </div>
+                <div className="flex items-center gap-2 rounded-md border border-green-400 px-4 py-1 text-xs sm:text-base text-black font-semibold  backdrop-blur-sm shadow-sm hover:border-green-500">
                   <svg
                     stroke="currentColor"
                     fill="currentColor"
@@ -56,15 +64,11 @@ function Section1() {
                   </svg>
                   Powered by Official WhatsApp Business API
                 </div>
-                <div className="flex items-center gap-2 rounded-full border border-green-300 px-4 py-1 text-xs sm:text-base text-black font-semibold bg-gray-100 backdrop-blur-sm shadow-sm hover:border-green-500">
-                  <img
-                    src="https://mittosapi.com/assets/metalogohero-D7d0DTBg.jpg"
-                    alt="Meta Logo"
-                    className="w-6 h-6 object-contain"
-                  />
-                  Meta Business Partners
+                <div className="flex items-center gap-2 rounded-md border border-green-400 px-4 py-1 text-xs sm:text-base text-black font-semibold  backdrop-blur-sm shadow-sm hover:border-green-500">
+
+                  🌟🌟🌟🌟🌟4.9/5 Rating Mixes API
                 </div>
-                
+
               </div>
               <div className="flex flex-col  items-center mx-auto">
                 <div className="flex flex-col justify-center items-center space-y-4 text-center">
@@ -73,23 +77,25 @@ function Section1() {
                       100% Ban Proof Meta Verified API
                     </span>
                   </h1>
-                  <h2 className="text-3xl sm:text-6xl font-semibold text-gray-900">
+                  <h2 className="text-3xl sm:text-6xl text-gray-900">
                     Send Unlimited WhatsApp Messages
                   </h2>
-                  <p className="text-xl flex gap-2 items-center sm:text-xl bg-green-500 text-white w-fit px-4 py-2 rounded-xl font-bold">
-                    Just in One Click <GiClick size={20} />
+                  <p className="text-xl flex gap-2 items-center bg-gradient-to-r from-[#eec800] to-[#c8a800] text-white w-fit px-4 py-2 rounded-xl font-bold">
+                    Just in One Click <TbHandClick size={24} className="-rotate-45 stroke-1" />
                   </p>
-                  <p className="text-gray-600 text-base sm:text-2xl max-w-xl mx-auto lg:mx-0">
-                    {"World's"} most trusted and affordable complete business
-                    automation API platform
+                  <p className="text-6xl font-bold">
+                    10X Your Business Growth with
                   </p>
+                  <div class="relative w-full max-w-sm overflow-hidden p-4">
+                    <AutoscrollMarquee />
+                  </div>
                   <p className="text-sm text-gray-500 flex sm:text-xl items-center justify-center lg:justify-start">
                     Powered by Official WhatsApp APIs 🔥
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-6">
                     <Link href="/forms">
                       <button className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-3.5 rounded-xl font-semibold text-lg shadow-md hover:shadow-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 flex items-center justify-center gap-2">
-                        Try Mixis API for FREE{" "}
+                        Get Mixes API Trial For Free {" "}
                         <span className="text-xl">→</span>
                       </button>
                     </Link>
@@ -98,36 +104,18 @@ function Section1() {
                         <span className="absolute inset-0 bg-gradient-to-r from-green-400 via-emerald-500 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></span>
                         <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out bg-gradient-to-r from-transparent via-white/60 to-transparent"></span>
                         <div className="relative z-10 flex items-center gap-2 text-lg font-bold tracking-wide group-hover:text-white transition-colors duration-300">
-                          Switch and Save{" "}
+                          Save & Switch{" "}
                           <span className="text-xl group-hover:translate-x-1 transition-transform">
                             →
                           </span>
                         </div>
-                        <p className="relative z-10 mt-1 text-xs text-gray-600 italic group-hover:text-green-100 transition-colors duration-300">
-                          only for existing API users
-                        </p>
-                        <span className="absolute -top-2 right-3 bg-gradient-to-r from-yellow-400 to-orange-400 text-[10px] font-bold text-black px-2 py-0.5 rounded-full shadow-md border border-yellow-300">
-                          OFFER
-                        </span>
+
+
                         <span className="absolute inset-0 rounded-xl border-2 border-green-400 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-pulse"></span>
                       </button>
                     </Link>
                   </div>
-                  <p className="text-xl text-green-600 flex items-center justify-center lg:justify-start gap-2 mt-2">
-                    <svg
-                      stroke="currentColor"
-                      fill="currentColor"
-                      strokeWidth="0"
-                      viewBox="0 0 576 512"
-                      className="w-8 h-6 text-blue-500"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z"></path>
-                    </svg>
-                    No credit card required
-                  </p>
+
                   <div className="inline-flex items-center gap-2 rounded-full border border-green-300 px-4 py-1 text-xs sm:text-base text-black font-semibold bg-green-50 backdrop-blur-sm shadow-sm hover:border-green-500 w-fit">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

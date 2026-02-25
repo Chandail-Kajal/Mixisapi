@@ -46,12 +46,11 @@ function CommonLayout({ children }) {
           animate={{ opacity: 1, y: 0 }}
           className="bg-gradient-to-r from-green-500 to-green-600 text-white py-2 px-4 text-center font-bold text-sm sm:text-base"
         >
-          WhatsApp Official API – Broadcast Messages, Automate, Engage & Close
-          Deals Faster!
+          Mixes API for Smart Businesses Automate.Broadcast.Convert.100% scalable & Ban-Safe Platform
         </motion.div>
         <Header mobileMenu={menu} setMobileMenu={() => setMenu((p) => !p)} />
       </div>
-      <div className="[background-image:linear-gradient(rgba(59,130,246,0.1)_1px,transparent_0),linear-gradient(90deg,rgba(59,130,246,0.1)_1px,transparent_0)] [background-size:35px_35px]">
+      <div className="">
         {children}
         <FAQSection />
         <Footer />
