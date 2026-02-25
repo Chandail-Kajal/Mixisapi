@@ -34,7 +34,7 @@ function Section1() {
             <AnimatedBackground />
           </div>
 
-          <section className="relative py-12 px-4 sm:px-6 lg:px-8">
+          <section className="relative py-12 px-4 sm:px-6 lg:px-8 bg-[url('/herobgimg.png')] bg-cover">
             <div className="max-w-7xl mx-auto relative z-10">
               <div className="flex flex-wrap justify-center gap-10 mb-10">
                 <div className="flex items-center gap-2 rounded-md border border-green-400 px-4 py-1 text-xs sm:text-base text-black font-semibold  backdrop-blur-sm shadow-sm hover:border-green-500">
@@ -51,6 +51,7 @@ function Section1() {
                     fill="currentColor"
                     strokeWidth="0"
                     viewBox="0 0 448 512"
+
                     className="w-6 h-6 text-green-700"
                     height="1em"
                     width="1em"
@@ -89,21 +90,20 @@ function Section1() {
                   <div class="relative w-full max-w-sm overflow-hidden p-4">
                     <AutoscrollMarquee />
                   </div>
-                  <p className="text-sm text-gray-500 flex sm:text-xl items-center justify-center lg:justify-start">
+                  <p className="text-sm text-black-500 flex font-semibold sm:text-2xl items-center justify-center lg:justify-start">
                     Powered by Official WhatsApp APIs 🔥
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-6">
                     <Link href="/forms">
-                      <button className="w-full sm:w-auto bg-gradient-to-r from-green-500 to-emerald-600 text-white px-8 py-3.5 rounded-xl font-semibold text-lg shadow-md hover:shadow-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 flex items-center justify-center gap-2">
+                      <button className="w-full sm:w-auto bg-gradient-to-r from-green-700 to-green-900 text-white px-8 py-3.5 rounded-xl text-lg shadow-md hover:shadow-xl hover:from-green-600 hover:to-emerald-700 transition-all duration-300 flex items-center justify-center gap-2">
                         Get Mixes API Trial For Free {" "}
                         <span className="text-xl">→</span>
                       </button>
                     </Link>
-                    <Link href="/offer">
-                      <button className="relative w-full sm:w-auto overflow-hidden rounded-xl border-2 border-green-500 bg-white px-8 py-3.5 text-lg font-semibold text-green-700 shadow-md transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 group flex flex-col items-center justify-center">
-                        <span className="absolute inset-0 bg-gradient-to-r from-green-400 via-emerald-500 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></span>
-                        <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out bg-gradient-to-r from-transparent via-white/60 to-transparent"></span>
-                        <div className="relative z-10 flex items-center gap-2 text-lg font-bold tracking-wide group-hover:text-white transition-colors duration-300">
+                    
+                      <button className="relative w-full sm:w-auto overflow-hidden rounded-xl border-2 border-gray-300 bg-green-50 px-8 py-3.5 text-lg font-semibold shadow-md transition-all duration-500 hover:shadow-2xl hover:-translate-y-0.5 group flex flex-col items-center justify-center">
+                       
+                        <div className="relative z-10 flex items-center gap-2 text-lg font-bold text-green-900">
                           Save & Switch{" "}
                           <span className="text-xl group-hover:translate-x-1 transition-transform">
                             →
@@ -111,9 +111,9 @@ function Section1() {
                         </div>
 
 
-                        <span className="absolute inset-0 rounded-xl border-2 border-green-400 opacity-0 group-hover:opacity-100 transition-all duration-500 animate-pulse"></span>
+                        <span className="absolute inset-0 rounded-xl border-2 border-gray-300 opacity-0 "></span>
                       </button>
-                    </Link>
+                    
                   </div>
 
                   <div className="inline-flex items-center gap-2 rounded-full border border-green-300 px-4 py-1 text-xs sm:text-base text-black font-semibold bg-green-50 backdrop-blur-sm shadow-sm hover:border-green-500 w-fit">
