@@ -84,10 +84,10 @@ function Section1() {
                   <p className="text-xl flex gap-2 items-center bg-gradient-to-r from-[#eec800] to-[#c8a800] text-white w-fit px-4 py-2 rounded-xl font-bold">
                     Just in One Click <TbHandClick size={24} className="-rotate-45 stroke-1" />
                   </p>
-                  <p className="text-6xl font-bold">
+                  <p className="text-6xl font-bold ">
                     10X Your Business Growth with
                   </p>
-                  <div class="relative w-full max-w-sm overflow-hidden p-4">
+                  <div class="relative w-full max-w-sm overflow-hidden ">
                     <AutoscrollMarquee />
                   </div>
                   <p className="text-sm text-black-500 flex font-semibold sm:text-2xl items-center justify-center lg:justify-start">

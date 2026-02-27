@@ -21,7 +21,7 @@ export function AutoscrollMarquee() {
 
     return (
 
-        <div className="flex items-center justify-center overflow-hidden ">
+        <div className="flex items-center justify-center overflow-hidden  ">
             <AnimatePresence mode="popLayout" >
                 <motion.div
                     key={index} // Unique key triggers the animation on change
@@ -29,7 +29,7 @@ export function AutoscrollMarquee() {
                     animate={{ y: 0, opacity: 1 }}    // Pop to center
                     exit={{ y: -50, opacity: 0 }}     // Pop out to top
                     transition={{
-                        duration: 0.6,
+                        duration: 0.4,
 
                         ease: [0.32, 0.72, 0, 1] // Custom "pop" ease
                     }}

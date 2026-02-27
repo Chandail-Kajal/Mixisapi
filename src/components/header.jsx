@@ -44,7 +44,7 @@ function Header({ mobileMenu, setMobileMenu }) {
         <div className="flex justify-between items-center h-16">
           <Link className="h-12 flex items-center" href="/">
             <img
-              src="/assets/Mixislogo.jpg" 
+              src="/mixes-logo.png" 
               alt="Mixis" 
           
               className="h-full object-contain"
